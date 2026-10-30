@@ -1,0 +1,24 @@
+.rev04 { overflow:hidden; background:#201e19; font-family:Georgia,'Times New Roman',serif; }
+.rev04-classroom { position:absolute; width:100%; height:100%; object-fit:cover; }
+.rev04-photo { position:absolute; width:100%; height:100%; object-fit:cover; }
+.rev04-study { object-position:50% 58%; }
+.rev04-surprised { object-position:50% 53%; }
+.rev04-alex-character { position:absolute; right:4%; bottom:-3%; width:35%; height:99%; overflow:hidden; transform:scaleX(-1); }
+.rev04-alex-response { right:7%; width:48%; height:117%; bottom:-14%; }
+.rev04-alex-character img { height:100%; width:100%; object-fit:contain; object-position:bottom; }
+.rev04-bubble { position:absolute; box-sizing:border-box; border:3px solid var(--ink); background:var(--paper); color:#302b26; border-radius:32px 39px 30px 35px; padding:22px 28px 25px; box-shadow:0 7px 15px #20180d38; font-size:42px; line-height:1.28; text-align:left; z-index:2; }
+.rev04-bubble p { margin:8px 0 0; font:inherit; color:inherit; }
+.rev04-identity { display:block; color:var(--ink); font:700 20px/1.2 'Trebuchet MS',Arial,sans-serif; letter-spacing:.02em; overflow-wrap:anywhere; }
+.rev04-bubble strong { font-weight:700; }
+.rev04-tone-alex { --paper:#ffe0af; --ink:#984e23; }
+.rev04-tone-classmate { --paper:#fff7e8; --ink:#75604c; }
+.rev04-tone-professor { --paper:#d3eeec; --ink:#286b72; }
+.rev04-bubble::after { content:''; position:absolute; width:30px; height:30px; background:var(--paper); border-left:3px solid var(--ink); border-bottom:3px solid var(--ink); }
+.rev04-tail-left::after { left:-18px; top:68%; rotate:45deg; }
+.rev04-tail-right::after { right:-18px; top:68%; rotate:225deg; }
+.rev04-tail-down::after { left:48%; bottom:-18px; rotate:-45deg; }
+.rev04-action { position:absolute; inset:0; overflow:hidden; }
+.rev04-reach { object-position:50% 55%; }
+.rev04-book-detail { width:164%; height:auto; max-width:none; left:-60%; top:-57%; }
+.rev04-smile-window { position:absolute; inset:0; overflow:hidden; }
+.rev04-smile { width:264%; height:auto; max-width:none; left:-68.5%; top:-55%; }

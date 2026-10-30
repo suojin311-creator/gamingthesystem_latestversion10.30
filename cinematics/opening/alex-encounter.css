@@ -1,0 +1,42 @@
+/* Local to the revised Opening; the approved comic prototype stays unchanged. */
+.opening-scene .alex-encounter { position: absolute; inset: 0; isolation: isolate; background: #292c25; overflow: auto; }
+.opening-scene .alex-encounter__backdrop { position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, #1c221ce8, #1c221c55), url('./assets/backgrounds/BG-002 — Classroom First-Person Background.png') center / cover; }
+.opening-scene .alex-encounter__portrait { position: absolute; left: 36%; top: 12%; width: 30%; height: 65%; overflow: hidden; border: 1px solid #e4c49a99; border-radius: 8px; background: url('./assets/backgrounds/BG-002 — Classroom First-Person Background.png') center / auto 100%; box-shadow: 0 12px 40px #080c0955; }
+/* Crop above the source artwork's desk: no second desk or assembled character. */
+.opening-scene .alex-encounter__portrait img { position: absolute; height: 145%; width: auto; max-width: none; left: 42%; top: -2%; transform: translateX(-50%); }
+.opening-scene .alex-encounter--intro .alex-encounter__portrait { left: 9%; width: 31%; height: 72%; }
+.opening-scene .alex-encounter__intro { position: absolute; left: 47%; right: 6%; top: 17%; font-family: Georgia, serif; }
+.opening-scene .alex-encounter__intro h2 { font: 600 clamp(19px, 2.1cqw, 32px)/1.4 'Trebuchet MS', sans-serif; color: #f3c292; margin-bottom: 1.2em; }
+.opening-scene .alex-encounter__intro h2 span { display: block; font-size: .62em; letter-spacing: .08em; }
+.opening-scene .alex-encounter__intro p { font-size: clamp(19px, 1.85cqw, 28px); line-height: 1.45; margin-bottom: .8em; color: #fff5e4; }
+.opening-scene .alex-encounter__placement { position: absolute; }
+.opening-scene .alex-encounter__placement--alex { left: 69%; top: 13%; width: 28%; }
+.opening-scene .alex-encounter__placement--alex .comic-bubble__tail { left: -49px; top: 55%; transform: rotate(90deg); }
+.opening-scene .alex-encounter__placement--professor { left: 4%; bottom: 19%; width: 39%; }
+.opening-scene .alex-encounter .comic-bubble { padding: clamp(14px, 1.6cqw, 24px); }
+.opening-scene .alex-encounter .comic-bubble__text { margin: 0; font-size: clamp(20px, 2cqw, 30px); line-height: 1.4; }
+.opening-scene .alex-encounter .comic-bubble__name { font-size: clamp(17px, 1.5cqw, 22px); }
+.opening-scene .alex-encounter .comic-bubble__role { font-size: clamp(13px, 1.1cqw, 17px); }
+.opening-scene .alex-encounter__actions { position: absolute; right: 6%; bottom: 7%; display: flex; gap: 18px; align-items: center; }
+.opening-scene .alex-encounter__counter { color: #f5dfbf; font-size: 14px; }
+.opening-scene .alex-encounter__status { position: absolute; top: 5%; left: 10%; right: 10%; padding: 20px; background: #20251f; }
+/* Portrait layouts reserve real space for the face, bubble tail and action.
+   Short phones scroll the encounter itself rather than clipping its contents. */
+@media (max-aspect-ratio: 1/1) {
+  .opening-scene:has(.alex-encounter) .stage { width: 100vw; height: 100svh; aspect-ratio: auto; }
+  .opening-scene .alex-encounter { display: flex; flex-direction: column; align-items: center; gap: 22px; padding: 24px 6% 100px; }
+  .opening-scene .alex-encounter__backdrop { position: fixed; }
+  .opening-scene .alex-encounter__portrait,
+  .opening-scene .alex-encounter--intro .alex-encounter__portrait { position: relative; left: auto; top: auto; width: min(100%, 440px); height: clamp(190px, 30svh, 320px); flex: none; order: 1; }
+  .opening-scene .alex-encounter__portrait img { height: 150%; left: 45%; }
+  .opening-scene .alex-encounter__intro { position: static; order: 2; width: min(100%, 540px); }
+  .opening-scene .alex-encounter__intro h2 { font-size: 24px; margin-bottom: .8em; }
+  .opening-scene .alex-encounter__intro p { font-size: 21px; }
+  .opening-scene .alex-encounter__placement { position: relative; left: auto; top: auto; bottom: auto; width: min(100%, 540px); }
+  .opening-scene .alex-encounter__placement--alex { order: 0; margin-bottom: 36px; }
+  .opening-scene .alex-encounter__placement--professor { order: 2; margin-bottom: 58px; }
+  .opening-scene .alex-encounter__placement--alex .comic-bubble__tail { left: 43%; top: calc(100% - 1px); transform: none; height: 44px; width: 50px; }
+  .opening-scene .alex-encounter .comic-bubble__text { font-size: clamp(21px, 3.2vw, 28px); }
+  .opening-scene .alex-encounter .comic-bubble__name { font-size: 18px; }
+  .opening-scene .alex-encounter__actions { position: static; order: 3; align-self: flex-end; margin-top: auto; flex: none; }
+}

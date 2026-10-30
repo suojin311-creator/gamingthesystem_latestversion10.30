@@ -1,0 +1,186 @@
+/* Only the arrangement changes; status copy, colours and feedback come from Level 1. */
+.l1-settlement {
+  width: 100%;
+  padding: 25px 30px 0;
+  background: var(--paper);
+}
+
+.l1-settlement:focus { outline: none; }
+.l1-settlement:focus-visible {
+  outline: 2px solid var(--coral);
+  outline-offset: 6px;
+}
+
+.l1-settlement .l1-settlement-metric {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-block: 0 23px;
+}
+
+.l1-settlement .l1-settlement-metric-icon {
+  display: grid;
+  place-items: center;
+  width: 47px;
+  height: 47px;
+  flex-shrink: 0;
+  border: 1px solid #d8cbb4;
+  border-radius: 8px;
+  background: #f0e7d7;
+  color: #8b6547;
+}
+
+.l1-settlement .l1-settlement-metric-icon .icon { width: 27px; height: 27px; }
+.l1-settlement .l1-settlement-label { color: #898575; font-size: 11px; line-height: 1.5; }
+.l1-settlement .l1-settlement-metric h2 { margin-top: 3px; font-size: 16px; line-height: 1.4; }
+
+.l1-settlement .perspectives {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.l1-settlement .perspective {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 255px;
+  padding: 24px;
+  border-top-width: 4px;
+}
+
+.l1-settlement .perspective-heading { margin-bottom: 22px; }
+.l1-settlement .management-satisfaction {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.l1-settlement .management-satisfaction-state { margin-block: 16px 23px; }
+.l1-settlement .management-satisfaction-evidence {
+  margin-top: auto;
+  padding-top: 23px;
+}
+.l1-settlement .student-behaviour { margin-top: 0; max-width: 24ch; }
+.l1-settlement .learning-risk {
+  margin-top: auto;
+  padding-top: 23px;
+}
+
+.l1-settlement .l1-settlement-prediction {
+  margin-top: 18px;
+  color: #827a66;
+  font-size: 11px;
+  line-height: 1.55;
+}
+.l1-settlement .l1-settlement-prediction summary { width: fit-content; padding-block: 6px; cursor: pointer; }
+.l1-settlement .l1-settlement-prediction blockquote {
+  margin: 9px 0 0;
+  padding: 11px 16px;
+  border-left: 2px solid #cbbda1;
+  background: #f3eee3;
+  font: italic 16px/1.6 var(--serif);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.l1-settlement .l1-settlement-actions { margin-top: 22px; }
+
+@media (max-width: 650px) {
+  .l1-settlement { padding: 23px 20px 0; }
+  .l1-settlement .perspectives { grid-template-columns: minmax(0, 1fr); gap: 15px; }
+  .l1-settlement .perspective { min-height: 220px; padding: 20px; }
+  .l1-settlement .l1-settlement-actions { gap: 12px; }
+}
+
+.l1-settlement { position: relative; }
+.l1-settlement .l1-settlement-handoff {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  background: #111710;
+  pointer-events: none;
+  animation: l1-settlement-uncover .15s ease-out both;
+}
+@keyframes l1-settlement-uncover { from { opacity: 1; } to { opacity: 0; } }
+
+.l1-settlement .student { position: relative; }
+.l1-settlement .student.has-evidence::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border: 2px solid #ad6037;
+  border-radius: inherit;
+  box-shadow: 0 0 0 3px #ad603719;
+  pointer-events: none;
+  animation: l1-student-warning .75s ease-in-out 3 both;
+}
+@keyframes l1-student-warning {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+.l1-settlement .student-behaviour { max-width: calc(100% - 145px); order: 1; }
+.l1-settlement .learning-risk { order: 3; }
+.l1-settlement .settlement-student-visual {
+  position: absolute;
+  top: 80px;
+  right: 27px;
+  width: 120px;
+  height: 110px;
+  pointer-events: none;
+}
+.l1-settlement .settlement-student-portrait {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  border: 1px solid #aeba97;
+  border-radius: 50%;
+  background: #dbe3cc;
+  color: #65794e;
+}
+.l1-settlement .settlement-student-notebook {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  width: 80px;
+  height: 84px;
+  padding: 19px 10px 10px 18px;
+  border: 1px solid #c5b48f;
+  border-radius: 3px;
+  background: #fffaf0;
+  box-shadow: 3px 4px 0 #dbcaa9;
+  transform: rotate(-5deg);
+}
+.l1-settlement .settlement-notebook-binding { position: absolute; inset: 5px auto 5px 6px; border-left: 2px dotted #cbb992; }
+.l1-settlement .settlement-notebook-task { display: flex; align-items: center; gap: 9px; color: #9d8a64; }
+.l1-settlement .settlement-notebook-task > .icon { width: 24px; height: 24px; }
+.l1-settlement .settlement-notebook-task > .icon:last-child { width: 10px; height: 10px; color: #8c896d; }
+.l1-settlement .settlement-notebook-line { display: block; height: 1px; background: #d8ccb4; margin-top: 8px; }
+.l1-settlement .settlement-notebook-line:last-child { width: 65%; }
+.l1-settlement .has-evidence > .student-behaviour,
+.l1-settlement .has-evidence > .learning-risk,
+.l1-settlement .settlement-student-visual { animation: l1-student-reveal .18s ease-out both; }
+@keyframes l1-student-reveal { from { opacity: 0; transform: translateY(2px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 650px) {
+  .l1-settlement .student-behaviour { max-width: calc(100% - 110px); }
+  .l1-settlement .settlement-student-visual { right: 17px; top: 81px; width: 96px; transform-origin: top right; scale: .85; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .l1-settlement .l1-settlement-handoff { display: none; }
+  .l1-settlement .student.has-evidence::after { animation: none; opacity: 1; box-shadow: none; }
+  .l1-settlement .has-evidence > .student-behaviour,
+  .l1-settlement .has-evidence > .learning-risk,
+  .l1-settlement .settlement-student-visual { animation: none; }
+}
+
+.l1-settlement .l1-settlement-actions { justify-content: flex-end; }
+.l1-settlement .l1-settlement-teacher { margin: 0 -30px; }
+@media (max-width: 650px) {
+  .l1-settlement .l1-settlement-teacher { margin-inline: -20px; padding-inline: 20px; }
+}

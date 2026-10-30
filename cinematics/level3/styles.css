@@ -1,0 +1,4 @@
+.level-three .level3-cinematic { width:100%; aspect-ratio:16 / 9; background:#111710; animation:l3-film-enter .4s ease-out; }
+.level-three .level3-cinematic iframe { display:block; width:100%; height:100%; border:0; }
+@keyframes l3-film-enter { from { opacity:0; } to { opacity:1; } }
+@media(prefers-reduced-motion:reduce){.level-three .level3-cinematic{animation:none}}

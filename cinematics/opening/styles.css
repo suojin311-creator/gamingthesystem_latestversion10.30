@@ -1,0 +1,127 @@
+.opening-scene { font-family: 'Trebuchet MS', Arial, sans-serif; color: #f7eddb; background: #080a09; font-synthesis: none; --coral: #ed8068; --ink: #302a24; }
+.opening-scene * { box-sizing: border-box; }
+.opening-scene button, .opening-scene input { font: inherit; }
+.opening-scene button { cursor: pointer; }
+.opening-scene button:disabled { cursor: not-allowed; opacity: .35; }
+.opening-scene button:focus-visible, .opening-scene input:focus-visible { outline: 2px solid var(--coral); outline-offset: 6px; }
+.opening-scene h1, .opening-scene h2, .opening-scene p { margin-top: 0; }
+.opening-scene.game-shell { height: 100svh; display: grid; place-items: center; overflow: clip; background: #080a09; }
+.opening-scene .stage { position: relative; width: min(100vw, calc(100svh * 16 / 9)); aspect-ratio: 16 / 9; overflow: clip; background: #080a09; container-type: inline-size; }
+.opening-scene .office-camera { position: absolute; inset: 0; transform-origin: 50% 50%; }
+.opening-scene .office-background { width: 100%; height: 100%; display: block; }
+.opening-scene .exposure, .opening-scene .vignette { position: absolute; inset: 0; pointer-events: none; }
+.opening-scene .exposure { background: #080a09; }
+.opening-scene .vignette { background: radial-gradient(ellipse at 50% 44%, transparent 40%, #0c100d80 100%); }
+.opening-scene .title-overlay { position: absolute; left: 15%; right: 15%; top: 18%; text-align: center; }
+.opening-scene .title-overlay h1 { font-family: 'Marker Felt', 'Chalkboard SE', 'Trebuchet MS', sans-serif; font-size: 6.3cqw; font-weight: 500; line-height: 1.03; letter-spacing: .025em; margin-bottom: 2.1cqw; }
+.opening-scene .title-overlay h1 span { color: #f0ddd0; }
+.opening-scene .subtitle { font-size: 1.35cqw; line-height: 1.7; color: #c2b6a5; margin-bottom: 2.4cqw; }
+.opening-scene .cinematic-button { display: inline-block; border: 0; border-bottom: 1px solid #ed8068a0; background: transparent; color: #edb39c; font-size: 1.1cqw; letter-spacing: .18em; padding: .9cqw .2cqw; transition: color .2s, border-color .2s; }
+.opening-scene .cinematic-button:not(:disabled):hover { color: #fff1db; border-color: #fff1db; }
+.opening-scene .opening-action { display: inline-flex; align-items: center; justify-content: center; gap: .8em; min-height: 44px; padding: clamp(12px, 1cqw, 16px) clamp(16px, 1.6cqw, 24px); border: 1px solid #f1d9b5; border-radius: 4px; background: #ad5840; color: #fff9ef; font-size: clamp(14px, 1.1cqw, 18px); font-weight: 600; line-height: 1.25; letter-spacing: .06em; white-space: nowrap; text-shadow: none; box-shadow: 0 3px 0 #713b2d, 0 5px 14px #100d0b66; transition: background-color .18s, box-shadow .18s; }
+.opening-scene .opening-action > span { font-size: 1.2em; line-height: 1; }
+.opening-scene .opening-action:not(:disabled):hover { background: #bd674c; box-shadow: 0 3px 0 #713b2d, 0 5px 18px #100d0b80; }
+.opening-scene .opening-action:focus-visible { outline: 3px solid #fff0c4; outline-offset: 3px; }
+.opening-scene .opening-action:not(:disabled):active { background: #914631; box-shadow: 0 1px 0 #713b2d, 0 3px 8px #100d0b66; }
+.opening-scene .identity-overlay { position: absolute; left: 49%; top: 25%; width: 43%; text-align: left; text-shadow: 0 2px 18px #000; }
+.opening-scene .identity-overlay h1 { font-family: Georgia, serif; font-weight: 400; font-size: 2.9cqw; margin-bottom: 1.2cqw; }
+.opening-scene .identity-overlay label { display: block; font-size: 1.55cqw; margin-bottom: .9cqw; }
+.opening-scene .identity-overlay input { display: block; width: 85%; border: 0; border-bottom: 1px solid #f6e2be99; border-radius: 0; background: #100f0c50; color: #fff7e7; padding: .8cqw .4cqw; font-size: 1.6cqw; margin-bottom: 1.3cqw; }
+.opening-scene .identity-overlay input::placeholder { color: #d8c8af; }
+.opening-scene .primary { color: var(--ink); background: var(--coral); border: 1px solid var(--ink); padding: .7cqw 2cqw; }
+.opening-scene .primary:not(:disabled):hover { background: #fa997e; }
+.opening-scene .screen-cue { position: absolute; inset: 0; background: radial-gradient(ellipse at 70% 20%, #f5d6a1, transparent 90%); pointer-events: none; }
+.opening-scene .laptop-screen { position: absolute; left: 14.3%; top: 37.8%; width: 24%; height: 25%; transform: skew(5deg, -2deg); overflow: hidden; border-radius: .2cqw; }
+.opening-scene .notification { position: absolute; top: 7%; right: 4%; width: 83%; display: flex; align-items: center; gap: .55cqw; text-align: left; border: 1px solid #b6a58c; border-radius: .65cqw; padding: .7cqw; background: #fff4e4; color: var(--ink); font-size: .6cqw; line-height: 1.4; box-shadow: 0 .3cqw .6cqw #0003; }
+.opening-scene .notification:hover { background: #fffaf2; }
+.opening-scene .notification strong, .opening-scene .notification b, .opening-scene .notification-detail { display: block; }
+.opening-scene .notification-detail { color: #776854; font-size: .5cqw; margin: .15cqw 0; }
+.opening-scene .notification-detail i { display: inline-block; width: .35cqw; height: .35cqw; background: var(--coral); border-radius: 50%; margin-left: .5cqw; }
+.opening-scene .envelope { font-size: 1.25cqw; color: #a34f40; }
+.opening-scene .email-reader { position: absolute; inset: 0; display: grid; place-items: center; background: #080a0940; will-change: opacity; }
+.opening-scene .email { width: 76%; height: 84%; display: flex; flex-direction: column; min-height: 0; background: #fff9ef; color: var(--ink); font: clamp(12px, 1.3cqw, 20px)/1.4 Arial, sans-serif; box-shadow: 0 8px 32px #080a0966; border-radius: 3px; overflow: hidden; }
+.opening-scene .mail-bar { display: flex; flex: none; align-items: center; gap: .5em; padding: .65em 1.5em; background: #944e45; color: #fff7ee; font-size: 1.05em; }
+.opening-scene .inbox-label { margin-left: auto; font-size: .65em; letter-spacing: .12em; }
+.opening-scene .mail-content { flex: 1; min-height: 0; overflow-y: auto; padding: .9em 1.8em .4em; }
+.opening-scene .sender { display: flex; align-items: center; gap: .7em; font-size: .85em; margin-bottom: .7em; }
+.opening-scene .sender small, .opening-scene .sender strong { display: block; }
+.opening-scene .sender small { color: #796758; font-size: .8em; }
+.opening-scene .sender-seal { width: 2em; height: 2em; display: grid; place-items: center; background: #ac6657; color: white; border-radius: 50%; }
+.opening-scene .sender time { margin-left: auto; color: #796758; font-size: .75em; }
+.opening-scene .email h2 { font-size: 1.6em; border-bottom: 1px solid #c9bbab; padding-bottom: .3em; margin-bottom: .5em; }
+.opening-scene .email p { margin-bottom: .65em; }
+.opening-scene .salutation { overflow-wrap: anywhere; }
+.opening-scene .salutation span { background: #f9e5c8; }
+.opening-scene .mission { border-left: 3px solid var(--coral); padding: .55em .9em; background: #f7e6cd; margin: .6em 0; }
+.opening-scene .mission p { margin: .15em 0 0; }
+.opening-scene .underline { text-decoration: underline; text-decoration-color: var(--coral); text-underline-offset: .15em; }
+.opening-scene .email-action { flex: none; padding: .65em 1.5em .9em; text-align: center; border-top: 1px solid #e5d8c5; }
+.opening-scene .email-action .primary { font-size: .95em; padding: .65em 1.6em; border-width: 1px; border-radius: 3px; box-shadow: 1px 2px 0 #49372b26; }
+.opening-scene .laptop-screen button:focus-visible { outline-width: 1px; outline-offset: 1px; }
+.opening-scene .email-reader button:focus-visible { outline-offset: 3px; }
+@media (max-width: 600px) {
+  .opening-scene .email { width: 92%; height: 94%; }
+  .opening-scene .mail-bar { padding: .4em .8em; }
+  .opening-scene .mail-content { padding: .7em 1em; }
+  .opening-scene .email-action { padding: .4em .8em; }
+  .opening-scene .email-action .primary { padding: .45em 1.1em; }
+  .opening-scene .sender time { display: none; }
+}
+
+.opening-scene .time-caption, .opening-scene .thought-caption { position: absolute; font-family: Georgia, serif; text-shadow: 0 2px 10px #000; color: #fff5e3; font-size: 1.5cqw; }
+.opening-scene .time-caption { bottom: 8%; left: 6%; padding: .7cqw 1cqw; background: #10130f75; }
+.opening-scene .thought-caption { bottom: 2.2%; width: 100%; text-align: center; font-style: italic; }
+.opening-scene .office-end { position: absolute; bottom: 5%; left: 6%; }
+.opening-scene .load-status { position: absolute; left: 0; bottom: 3%; width: 100%; text-align: center; font-size: 1cqw; color: #f0c7b4; }
+.opening-scene .sound-toggle { position: absolute; right: 2%; bottom: 3%; padding: .5cqw; color: #eee1cd; background: #080a0980; border: 1px solid #eee1cd44; font-size: .7cqw; letter-spacing: .1em; }
+.opening-scene .classroom-world, .opening-scene .classroom-camera, .opening-scene .classroom-exposure, .opening-scene .classroom-ambient, .opening-scene .classroom-static, .opening-scene .classroom-interactions { position: absolute; inset: 0; }
+.opening-scene .classroom-camera { transform-origin: 50% 50%; }
+.opening-scene .classroom-background { display: block; width: 100%; height: 100%; }
+.opening-scene .classroom-exposure { background: #080a09; pointer-events: none; }
+/* Original art includes desks. Match the front row without altering production PNGs. */
+.opening-scene .student-art { position: absolute; display: block; height: auto; pointer-events: none; user-select: none; }
+.opening-scene .student-sleeping { left: 0%; top: 39%; width: 34%; }
+.opening-scene .student-phone { left: 32%; top: 40%; width: 35%; }
+.opening-scene .student-unprepared { left: 68%; top: 43%; width: 32%; }
+.opening-scene .classroom-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
+.opening-scene .classroom-interactions { pointer-events: none; }
+.opening-scene .student-hotspot { position: absolute; pointer-events: auto; margin: 0; padding: 0; border: 0; background: none; cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+.opening-scene .student-hotspot:disabled { opacity: 1; cursor: default; }
+.opening-scene .student-hotspot:focus-visible { outline: none; }
+.opening-scene .student-hotspot::after { content: ''; position: absolute; inset: 0; pointer-events: none; opacity: 0; background: radial-gradient(ellipse, #fff2db0d, transparent 68%); transition: opacity .5s; }
+.opening-scene .student-hotspot:not(:disabled):hover::after, .opening-scene .student-hotspot:focus-visible::after { opacity: 1; }
+.opening-scene .student-hotspot[data-inspected='true']::after { background: radial-gradient(ellipse, #fff2db05, transparent 68%); }
+.opening-scene .student-dialogue, .opening-scene .classroom-thought { position: absolute; left: 8%; right: 8%; bottom: 5%; margin: 0; color: #fff5e3; font-size: 1.8cqw; line-height: 1.5; text-align: center; text-shadow: 0 2px 5px #080a09, 0 0 16px #080a09, 0 0 30px #080a09; pointer-events: none; }
+.opening-scene .classroom-thought { font-family: Georgia, serif; font-style: italic; }
+.opening-scene .sleeping-response { font-family: Georgia, serif; font-style: italic; }
+.opening-scene .classroom-look { position: absolute; bottom: 5%; width: 100%; text-align: center; color: #fff5e3; font-family: Georgia, serif; font-size: 1.1cqw; text-shadow: 0 2px 5px #000; pointer-events: none; }
+.opening-scene .classroom-exit { position: absolute; right: 3%; top: 42%; }
+@media (prefers-reduced-motion: reduce) { .opening-scene *, .opening-scene *::before, .opening-scene *::after { scroll-behavior: auto !important; transition-duration: 0s !important; } }
+
+.opening-scene h1, .opening-scene h2, .opening-scene p { margin: 0 0 1em; }
+.opening-scene .opening-interaction-cue { display: block; width: 100%; aspect-ratio: 1; filter: drop-shadow(0 2px 5px #1b1a16aa); pointer-events: none; }
+.opening-scene .opening-interaction-cue svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.opening-scene .opening-interaction-cue path { stroke: #fff0c4; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.opening-scene .opening-interaction-cue svg { animation: opening-arrow-glow 1.6s ease-in-out infinite; }
+.opening-scene .notification { padding-right: 1.9cqw; animation: opening-email-attention 1.6s ease-in-out infinite; }
+.opening-scene .opening-email-cue { position: absolute; right: .45cqw; top: 50%; width: .95cqw; transform: translateY(-50%) rotate(90deg); }
+.opening-scene .opening-student-marker { position: absolute; left: 50%; bottom: calc(100% + 6px); width: clamp(30px, 3.2cqw, 46px); transform: translateX(-50%); pointer-events: none; }
+.opening-scene .opening-student-marker[hidden] { display: none; }
+.opening-scene .student-hotspot:focus-visible { outline: none; }
+.opening-scene .student-hotspot::after { background: none !important; }
+.opening-scene .student-hotspot:focus-visible .opening-interaction-cue path { stroke-width: 3.8; }
+.opening-scene .classroom-look { margin: 0; left: 7%; width: 86%; bottom: max(42px, 7.5%); font-size: clamp(14px, 1.65cqw, 25px); line-height: 1.3; }
+.opening-scene .student-dialogue, .opening-scene .classroom-thought { margin: 0; bottom: max(42px, 7.5%); font-size: clamp(15px, 1.8cqw, 28px); }
+.opening-scene .opening-observation-progress { position: absolute; left: 50%; bottom: max(10px, 2.5%); display: flex; align-items: center; gap: clamp(9px, 1.3cqw, 20px); transform: translateX(-50%); pointer-events: none; }
+
+.opening-scene .opening-observation-progress > span { position: relative; width: clamp(22px, 2.1cqw, 32px); aspect-ratio: 1; display: grid; place-items: center; border: 0; background: transparent; }
+.opening-scene .opening-observation-progress > span[data-complete='true'] svg { stroke: #d6e0b5; filter: drop-shadow(0 0 3px #20331d); }
+.opening-scene .opening-observation-progress svg { width: 75%; height: 75%; stroke: #fff4d8; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+@keyframes opening-target-point { 0%, 100% { translate: 0 -3px; } 55% { translate: 0 3px; } }
+@keyframes opening-email-attention { 0%, 100% { box-shadow: 0 0 0 0 #ed806800; border-color: #b7795f; } 50% { box-shadow: 0 0 0 2px #ed806877, 0 0 .8cqw #ed806866; border-color: #ad5840; } }
+
+.opening-scene .office-reflection { position: absolute; left: 10%; right: 10%; bottom: 10%; margin: 0; text-align: center; font: italic clamp(17px, 2cqw, 30px)/1.5 Georgia, serif; color: #fff5e3; text-shadow: 0 2px 8px #151a12, 0 0 28px #151a12; }
+.opening-scene :is(.thought-caption, .office-reflection, .classroom-thought) { color: var(--teacher-caption); }
+.opening-scene .student-dialogue { color: var(--student-caption); }
+.opening-scene :is(.thought-caption, .office-reflection, .classroom-thought, .student-dialogue) { -webkit-text-stroke: .035em #172019; paint-order: stroke fill; text-shadow: var(--caption-shadow); }
+@keyframes opening-arrow-glow { 0%, 100% { opacity: .65; translate: 0 -2px; filter: drop-shadow(0 0 2px #ffca70) drop-shadow(0 2px 2px #222); } 50% { opacity: 1; translate: 0 2px; filter: drop-shadow(0 0 8px #ffd886) drop-shadow(0 1px 2px #222); } }

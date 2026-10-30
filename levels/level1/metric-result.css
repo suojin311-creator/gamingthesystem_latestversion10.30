@@ -1,0 +1,28 @@
+.game-page .metric-result .single-metric-report.metric-choice { display:block; margin:4px 0 28px; }
+.metric-result .metric-stage { height:390px; position:relative; border:1px solid #ded7c5; background:#fffdf7; padding:26px; }
+.metric-result .metric-overview { list-style:none; padding:0; }
+.metric-result .metric-choice .metric-overview .metric-option { min-height:155px; transition:opacity .5s ease; }
+.metric-result .metric-overview .selected-slot { visibility:hidden; }
+.metric-result[data-focused=true] .metric-overview .metric-option { opacity:0; }
+.metric-result .metric-choice .selected-metric-card { position:absolute; z-index:1; pointer-events:none; transition:left .8s cubic-bezier(.22,.7,.2,1),top .8s cubic-bezier(.22,.7,.2,1),width .8s cubic-bezier(.22,.7,.2,1),height .8s cubic-bezier(.22,.7,.2,1),background .4s ease,border-color .4s ease,box-shadow .8s ease; }
+.metric-result .selected-metric-card h3 { transition:font-size .8s ease; }
+.metric-result[data-focused=true] .metric-choice .selected-metric-card h3 { font-size:20px; }
+.metric-result .selected-metric-card .choice-card-art { transition:width .8s ease,height .8s ease,background .4s ease,color .4s ease; }
+.metric-result .selected-metric-card .choice-card-art>.icon { transition:width .8s ease,height .8s ease; }
+.metric-result[data-focused=true] .selected-metric-card .choice-card-art { width:64px;height:59px; }
+.metric-result[data-focused=true] .selected-metric-card .choice-card-art>.icon { width:43px;height:43px; }
+.metric-result .selected-metric-card .l2-eval-result { position:absolute; bottom:15px; font-size:16px; min-height:22px; }
+.game-page .metric-result .metric-choice .selected-metric-card[data-checked=true] { background:#eff3e6; border-color:#bdcba9; box-shadow:0 3px 0 #d3ddc3; }
+.metric-result .selected-metric-card[data-checked=true] .choice-card-art { background:#e3ead7; color:#657b53; }
+.metric-result .selected-metric-card[data-checked=true] .choice-card-mark { background:#587448; border-color:#587448; }
+.metric-result .selected-metric-card .l2-eval-result>.icon { width:20px; height:20px; }
+.metric-result [data-checked=true] .l2-eval-result>.icon path { stroke-dasharray:24; stroke-dashoffset:0; animation:review-draw-check .4s ease both; }
+@keyframes review-draw-check { from{stroke-dashoffset:24}to{stroke-dashoffset:0} }
+.metric-result .action-row { justify-content:flex-end; margin-top:auto; padding-top:18px; }
+
+.metric-result .section-intro h2 {min-height:39px;font-size:32px;line-height:1.2}
+.metric-result .single-metric-report .l2-eval-result {display:flex;gap:5px;align-items:center;color:#a5a18f;white-space:nowrap}
+.metric-result [data-checked=true] .l2-eval-result {color:#587448}
+.metric-result .l2-checking {width:5px;height:5px;border-radius:50%;background:#b8b39e}
+@media(max-width:600px){.metric-result .metric-stage{padding:14px;height:445px}.game-page .metric-result .metric-choice .choice-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.metric-result .metric-choice .metric-overview .metric-option{min-height:125px}}
+@media(prefers-reduced-motion:reduce){.metric-result .metric-option,.metric-result .selected-metric-card,.metric-result .selected-metric-card h3,.metric-result .selected-metric-card .choice-card-art,.metric-result .selected-metric-card .choice-card-art>.icon{transition:none!important}.metric-result [data-checked=true] .l2-eval-result>.icon path{animation:none}}

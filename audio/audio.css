@@ -1,0 +1,7 @@
+.gts-music-controls{position:fixed;z-index:10020;right:12px;top:8px;display:flex;gap:4px;font:12px/1.4 Georgia,serif;color:#fff5e3}
+.gts-music-controls button{font:inherit;cursor:pointer;color:inherit;border:1px solid #d8c6a477;background:#34382ef2;border-radius:5px;padding:6px 8px}
+.gts-music-settings{position:absolute;right:0;top:38px;width:190px;padding:14px;border:1px solid #d8c6a477;border-radius:7px;background:#34382efa;box-shadow:0 6px 28px #0003}
+.gts-music-settings label{display:block;margin-bottom:8px}.gts-music-settings input{width:100%;accent-color:#bc6852}
+.gts-music-controls :focus-visible{outline:2px solid #ffe2a3;outline-offset:3px}
+@media(max-width:600px){.gts-music-label{display:none}}
+body:has(.masthead,.l2-masthead,.l3-masthead) .gts-music-controls{top:58px}

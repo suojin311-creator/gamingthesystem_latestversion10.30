@@ -1,0 +1,13 @@
+{
+  "author": "Gaming the System original procedural score",
+  "generator": "scripts/render_score.py",
+  "sampleRate": 32000,
+  "tracks": {
+    "office": 64,
+    "metrics": 64,
+    "reflection": 64,
+    "lab": 64,
+    "reveal": 12
+  },
+  "externalSamples": false
+}

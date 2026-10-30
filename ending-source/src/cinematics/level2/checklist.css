@@ -1,0 +1,325 @@
+.l2-checklist {
+  --l2-ink: #443c30;
+  --l2-faint-ink: #8a7c65;
+  --l2-green: #526b4b;
+  --l2-rust: #a6653c;
+  width: 100%;
+  height: 100%;
+  container-type: inline-size;
+  color: var(--l2-ink);
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.l2-checklist-paper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 6.2cqw 5.5cqw 4cqw 7.6cqw;
+  overflow: hidden;
+  border: 1px solid #cbb894;
+  border-radius: 1px 4px 3px 2px;
+  background:
+    linear-gradient(90deg, transparent 5.4%, #ba756325 5.5%, #ba756325 5.7%, transparent 5.8%),
+    repeating-linear-gradient(0deg, #74572c03 0, #74572c03 1px, transparent 1px, transparent 4px),
+    linear-gradient(105deg, #e9dabe, #f7ecd5 38%, #f1e4ca 78%, #e5d2ae);
+  box-shadow: 0 1.5cqw 4cqw #241b2330, inset 0 0 6cqw #9b713013;
+}
+
+.l2-checklist-paper::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(175deg, #fff8db19, transparent 35%, #7653240a);
+}
+
+.l2-checklist-punched {
+  position: absolute;
+  inset: 14% auto 12% 1.6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.l2-checklist-punched i {
+  width: 1.6cqw;
+  height: 1.6cqw;
+  border-radius: 50%;
+  background: #6e584643;
+  box-shadow: inset 0 0.2cqw 0.5cqw #261b3b39, 0 0.2cqw #fff8dc;
+}
+
+.l2-checklist-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 0 auto;
+  gap: 2cqw;
+  padding-bottom: 2.6cqw;
+  border-bottom: 1px solid #78634848;
+}
+
+.l2-checklist-overline {
+  margin: 0 0 1.1cqw;
+  color: var(--l2-faint-ink);
+  font: italic 2.35cqw/1.2 Georgia, serif;
+}
+
+.l2-checklist-header h3 {
+  margin: 0;
+  font-size: 4.7cqw;
+  line-height: 1.08;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
+
+.l2-checklist-tally {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7cqw;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.l2-checklist-tally strong {
+  color: var(--l2-green);
+  font-size: 6.1cqw;
+  font-weight: 400;
+}
+
+.l2-checklist-tally > span {
+  color: var(--l2-faint-ink);
+  font-size: 2.6cqw;
+}
+
+.l2-checklist-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--l2-checklist-columns), minmax(0, 1fr));
+  gap: 3cqw;
+  flex: 1 1 auto;
+  min-height: 0;
+  margin-top: 2.7cqw;
+}
+
+.l2-checklist-group,
+.l2-checklist-rows {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
+
+.l2-checklist-rows {
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+}
+
+.l2-checklist-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2.6cqw;
+  flex: 1 1 0;
+  min-height: 0;
+  border-bottom: 1px solid #7b674323;
+  font-size: 3.7cqw;
+  line-height: 1.2;
+  isolation: isolate;
+}
+
+.l2-checklist-row::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 12% -1.3cqw;
+  background: #c3944c00;
+  transform: rotate(-0.4deg);
+}
+
+.l2-checklist-row.is-next::before {
+  background: #c3944c24;
+}
+
+.l2-checklist-row-label {
+  display: block;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.l2-checklist-box {
+  position: relative;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  width: 3.4cqw;
+  height: 3.4cqw;
+  border: 1px solid #89765a;
+  border-radius: 0.35cqw 0.1cqw 0.25cqw 0.1cqw;
+  transform: rotate(-1deg);
+}
+
+.l2-checklist-box svg {
+  position: absolute;
+  inset: -30% -25% -10% -15%;
+  width: 140%;
+  height: 140%;
+  overflow: visible;
+  fill: none;
+  stroke: var(--l2-green);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.l2-checklist-row.is-checked .l2-checklist-row-label {
+  color: #5f6652;
+}
+
+.l2-checklist-next-mark {
+  margin-left: auto;
+  color: var(--l2-rust);
+  font: italic 4.5cqw/1 Georgia, serif;
+}
+
+.l2-checklist-footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 0 0 auto;
+  min-height: 5.5cqw;
+  margin-top: 2.6cqw;
+}
+
+.l2-checklist-footer > p {
+  margin: 0;
+  color: var(--l2-faint-ink);
+  font-size: 2.4cqw;
+  line-height: 1.3;
+  font-style: italic;
+}
+
+.l2-checklist-finished-mark {
+  position: absolute;
+  right: 1cqw;
+  bottom: 0;
+  color: var(--l2-green);
+  font-size: 6cqw;
+  transform: rotate(-8deg);
+}
+
+.l2-checklist-evidence {
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: 3.1cqw;
+}
+
+.l2-checklist-margin-note {
+  display: block;
+  margin-bottom: 1.7cqw;
+  font-size: 2.2cqw;
+  font-style: italic;
+  color: var(--l2-rust);
+}
+
+.l2-checklist-evidence-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2cqw;
+}
+
+.l2-checklist-evidence-slip {
+  display: flex;
+  align-items: baseline;
+  gap: 1cqw;
+  padding: 1cqw 0.9cqw 1.2cqw;
+  border-bottom: 1px solid #8c785449;
+  background: #fff8dc80;
+  box-shadow: 0 0.35cqw 0.45cqw #4a351512;
+  color: #77694f;
+  transform: rotate(-1.5deg);
+  font-size: 1.8cqw;
+  line-height: 1.2;
+}
+
+.l2-checklist-evidence-slip:nth-child(2) { transform: rotate(1.1deg); }
+.l2-checklist-evidence-slip:nth-child(3) { transform: rotate(-0.4deg); }
+.l2-checklist-evidence-slip b { font-size: 2cqw; color: var(--l2-green); }
+.l2-checklist-evidence-slip.is-current { border-bottom-color: #aa7749; background: #f5dfad; }
+
+.l2-checklist-links {
+  display: block;
+  width: 100%;
+  height: 5.3cqw;
+  overflow: visible;
+  fill: none;
+  stroke: #8a99796b;
+  stroke-width: 0.3;
+}
+
+.l2-checklist-links .l2-checklist-link-primary { stroke: #6d835abb; stroke-width: 0.45; }
+.l2-checklist-links circle { fill: #7d8e6b; stroke: none; }
+
+.l2-checklist-group h4 {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8cqw;
+  margin: 0 0 1.2cqw;
+  padding-bottom: 0.8cqw;
+  border-bottom: 1px solid #7c69493b;
+  font-size: 2.25cqw;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #6a7059;
+}
+
+.l2-checklist-group h4 > span { color: #a08d70; font-size: 1.65cqw; }
+.l2-checklist-evidence-ref { margin-left: auto; color: #697a55; font-size: 1.9cqw; }
+.l2-checklist-evidence-ref.is-linking { color: #a36d3e; text-decoration: underline; text-underline-offset: 0.35cqw; }
+
+.l2-checklist-gap-note {
+  display: flex;
+  align-items: baseline;
+  gap: 2.5cqw;
+  margin-top: 1.1cqw;
+  color: #7c6d52;
+  font-size: 2cqw;
+  line-height: 1.2;
+}
+
+.l2-checklist-gap-note b { font-weight: 400; color: #766042; }
+.l2-checklist-gap-action { border-bottom: 1px solid #a4824b66; color: var(--l2-rust); }
+
+.l2-checklist--10 .l2-checklist-row { font-size: 2.8cqw; gap: 2cqw; }
+.l2-checklist--10 .l2-checklist-box { width: 2.5cqw; height: 2.5cqw; }
+
+.l2-checklist--25 .l2-checklist-grid,
+.l2-checklist--100 .l2-checklist-grid { margin-top: 0; }
+.l2-checklist--25 .l2-checklist-row { font-size: 2.15cqw; gap: 1.2cqw; }
+.l2-checklist--25 .l2-checklist-box { width: 1.8cqw; height: 1.8cqw; }
+.l2-checklist--25 .l2-checklist-row-label { overflow-wrap: normal; }
+
+.l2-checklist--100 .l2-checklist-paper { padding-top: 4.8cqw; padding-bottom: 3cqw; }
+.l2-checklist--100 .l2-checklist-header { padding-bottom: 2cqw; }
+.l2-checklist--100 .l2-checklist-header h3 { font-size: 4.2cqw; }
+.l2-checklist--100 .l2-checklist-grid { gap: 1.6cqw; }
+.l2-checklist--100 .l2-checklist-evidence { margin-top: 2cqw; }
+.l2-checklist--100 .l2-checklist-group h4 { font-size: 1.8cqw; gap: 0.5cqw; margin-bottom: 0.6cqw; }
+.l2-checklist--100 .l2-checklist-group h4 > span { font-size: 1.4cqw; }
+.l2-checklist--100 .l2-checklist-row { font-size: 1.45cqw; gap: 0.7cqw; line-height: 1.1; }
+.l2-checklist--100 .l2-checklist-row-label { white-space: nowrap; }
+.l2-checklist--100 .l2-checklist-box { width: 1.25cqw; height: 1.25cqw; }
+.l2-checklist--100 .l2-checklist-evidence-ref { font-size: 1.35cqw; }
+.l2-checklist--100 .l2-checklist-footer { margin-top: 1.8cqw; min-height: 5cqw; }
+.l2-checklist--100 .l2-checklist-footer > p { font-size: 2.1cqw; }
+.l2-checklist--100 .l2-checklist-overline { font-size: 2.1cqw; }
+.l2-checklist--finished .l2-checklist-tally strong { color: #41643d; }
+
+/* Every mark is derived from progress; reduced motion loses no information. */
+.l2-checklist--reduced * { animation: none !important; transition: none !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  .l2-checklist * { animation: none !important; transition: none !important; }
+}

@@ -1,0 +1,23 @@
+/* REV-05 only: retain the approved group crop and the new full-frame POV. */
+.l2-three-camera { position:absolute; inset:0; transform-origin:50% 50%; }
+.l2-three-plate { position:absolute; width:132%; height:132%; left:-16%; top:-29%; object-fit:cover; object-position:50% 75%; }
+.l2-three-wide { background:#171711; }
+.l2-three-wide .l2-three-plate { width:100%; height:100%; left:0; top:0; object-fit:contain; }
+.l2-three-group .l2-three-bubble { top:auto; bottom:5%; width:43%; }
+.l2-three-group .speaker-classmate { left:3%; right:auto; }
+.l2-three-group .speaker-alex { left:34%; right:auto; width:58%; }
+.l2-three-group .l2-three-bubble::after { top:-2.2cqw; height:2.3cqw; transform:rotate(180deg); }
+.l2-three-group .speaker-classmate::after { left:16%; }
+.l2-three-group .speaker-alex::after { left:19%; }
+.l2-three-wide .speaker-professor { bottom:4%; left:10%; width:80%; font-size:2.1cqw; }
+.l2-three-narrative { position:absolute; left:6%; right:6%; bottom:7%; margin:0; color:#fff5e3; font:2.4cqw/1.4 Georgia,serif; text-align:center; text-shadow:0 2px 5px #080a09,0 0 16px #080a09; }
+
+@media (max-width:600px) and (max-aspect-ratio:1/1) {
+  /* Preserve the group geography and full wide image even in a portrait frame. */
+  .l2-three-camera { inset:0 0 auto; height:auto; aspect-ratio:16/9; top:12%; overflow:hidden; }
+  .l2-three-group .l2-three-bubble, .l2-three-wide .speaker-professor { left:5%; right:5%; top:calc(12% + 56.25cqw + 20px); bottom:auto; width:auto; font-size:17px; }
+  .l2-three-group .l2-three-bubble::after { top:-16px; width:14px; height:17px; transform:rotate(180deg); }
+  .l2-three-scene.l2-three-group .speaker-classmate::after { left:16%; }
+  .l2-three-scene.l2-three-group .speaker-alex::after { left:47%; }
+  .l2-three-narrative { top:calc(12% + 56.25cqw + 20px); bottom:auto; font-size:19px; }
+}

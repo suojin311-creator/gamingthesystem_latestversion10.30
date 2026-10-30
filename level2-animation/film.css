@@ -1,0 +1,19 @@
+html, body, #root { margin: 0; width: 100%; height: 100%; background: #111710; overflow: hidden; }
+.l2-film { position: relative; width: 100%; height: 100%; overflow: hidden; container-type: inline-size; background: #111710; }
+.l2-film .l2-scene { position: absolute; inset: 0; }
+/* Game-owned reports, chapter titles and additional scenes never overlay a film. */
+.l2-film :is(.l2-chapter, .l2-reference-credit, .l2-pattern-notes, .l2-entry-result, .l2-stage-caption, .l2-expanding-lines, .l2-system-success, .l2-priority, .l2-priority-question, .l2-dialogue) { display: none !important; }
+/* The 100-metric Coverage map is an intact paper prop: keep its title, tally,
+   evidence slips/references, gaps and footer as well as all criterion labels.
+   The earlier three/six-metric presentation remains unchanged. */
+.l2-film .l2-checklist:not(.l2-checklist--100) :is(.l2-checklist-header, .l2-checklist-footer, .l2-checklist-next-mark, .l2-checklist-margin-note, .l2-checklist-evidence-slip, .l2-checklist-evidence-ref, .l2-checklist-gap-note) { visibility: hidden !important; }
+/* The confirmed Level 1 treatment uses readable outlined text, without a shade. */
+.l2-film :is(.l2-foreground-shade, .l2-world-grade, .l2-checking-light), .l2-film .l2-alex-performance::after { display: none !important; }
+.l2-spoken { position: absolute; left: 10%; right: 10%; bottom: 7%; text-align: center; pointer-events: none; }
+.l2-spoken .l2-speaker { margin: 0 0 .6cqw; font: 600 .85cqw/1.3 Arial, sans-serif; letter-spacing: .12em; }
+.l2-spoken [role=status] { position: static !important; font-size: 2.15cqw !important; line-height: 1.5 !important; background: transparent !important; }
+.l2-film-cover { position: absolute; inset: 0; z-index: 5; background: #111710; pointer-events: none; }
+.l2-film-loading { position: absolute; top: 45%; width: 100%; text-align: center; color: #eee1c9; font: 16px Georgia, serif; }
+
+/* The approved standalone 100-metric caption typography, reused in game. */
+.l2-film[data-kind=checklist] .l2-spoken [role=status] { font-weight:400 !important; letter-spacing:normal !important; }

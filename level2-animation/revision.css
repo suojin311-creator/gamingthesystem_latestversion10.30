@@ -1,0 +1,112 @@
+.l2-revision-scene { position:absolute; inset:0; overflow:hidden; background:#37291f; color:#38271e; font-family:Georgia,serif; box-sizing:border-box; }
+.l2-revision-scene * { box-sizing:border-box; }
+.l2-revision-camera { position:absolute; inset:0; }
+.l2-revision-plate { position:absolute; width:100%; height:100%; object-fit:cover; }
+/* Tight, motivated crops exclude background adults; no visible Professor. */
+.view-group .l2-revision-plate, .view-outcome .l2-revision-plate { width:132%; height:132%; left:-16%; top:-29%; object-position:50% 75%; }
+.view-alex .l2-revision-plate { width:100%; height:100%; left:0; top:0; }
+.view-alex-three .l2-revision-plate { width:132%; height:132%; left:-16%; top:-29%; object-position:50% 75%; }
+.view-impressed .l2-revision-plate { object-position:50% 40%; }
+.l2-comic-bubble { position:absolute; z-index:3; border:.2cqw solid #68452e; border-radius:2.2cqw; padding:1.1cqw 1.8cqw; background:#fff2d9; width:38%; box-shadow:0 .5cqw 1.5cqw #2b190b35; font-size:2.35cqw; line-height:1.28; }
+.l2-comic-bubble p { margin:.25cqw 0 0; }
+.l2-comic-speaker { display:block; font:700 1cqw/1.4 Arial,sans-serif; letter-spacing:.06em; }
+.l2-comic-bubble::after { content:''; position:absolute; width:2cqw; height:2.3cqw; background:inherit; clip-path:polygon(0 0,100% 0,0 100%); top:calc(100% - .1cqw); left:17%; }
+.speaker-alex { top:5%; right:4%; background:#ffe0af; border-color:#a45d2a; }
+.speaker-alex::after { left:15%; transform:rotate(15deg); }
+.speaker-classmate { top:5%; left:5%; width:33%; background:#f8eddc; }
+.speaker-classmate::after { left:85%; transform:scaleX(-1); }
+.speaker-professor { bottom:5%; left:17%; width:62%; background:#d3efed; border-color:#326969; }
+.speaker-professor::after { left:45%; transform:rotate(-12deg); }
+.l2-selected-paper { position:absolute; right:4%; bottom:7%; width:36%; padding:1.4cqw 2cqw; background:#fff2d7; box-shadow:0 .4cqw 1.5cqw #20150955; transform:rotate(2deg); font:1.45cqw/1.4 Georgia,serif; }
+.l2-selected-paper span { font:700 1cqw Arial,sans-serif; color:#735d42; }
+.l2-selected-paper p { margin:.6cqw 0; }
+.l2-outcome-note { position:absolute; bottom:4%; left:5%; right:5%; padding:1.3cqw 2cqw; background:#fff3dbf5; box-shadow:0 .4cqw 2cqw #20150955; font:1.9cqw/1.4 Georgia,serif; }
+.l2-outcome-note p { margin:.4cqw 0; }
+.l2-outcome-note small { display:block; font:1.2cqw/1.4 Arial,sans-serif; }
+.view-listening-c .l2-revision-plate, .view-listening-d .l2-revision-plate { width:90%; height:100%; left:15%; object-fit:contain; }
+.view-listening-c .speaker-classmate, .view-listening-d .speaker-classmate { left:3%; top:8%; width:34%; }
+.view-listening-c .speaker-classmate::after, .view-listening-d .speaker-classmate::after { top:65%; left:calc(100% - .1cqw); transform:rotate(-55deg); }
+.view-six-paper .l2-revision-plate { width:114%; height:100%; left:-14%; top:0; }
+.view-six-paper .speaker-alex { top:auto; bottom:7%; left:3%; width:34%; }
+.view-six-paper .speaker-alex::after { top:-2cqw; left:70%; transform:rotate(180deg); }
+.l2-six-live-paper { position:absolute; right:4%; top:6%; bottom:5%; width:56%; transform:rotate(1deg); filter:drop-shadow(0 .5cqw 1.3cqw #291a0d80); }
+.l2-film .l2-six-live-paper .l2-checklist:not(.l2-checklist--100) :is(.l2-checklist-header,.l2-checklist-footer) { visibility:visible !important; }
+.l2-six-live-paper .l2-checklist-row-label { font-size:3.4cqw !important; }
+.l2-revision-crop { position:absolute; width:100%; height:100%; }
+.view-calm-closeup .speaker-alex { left:4%; right:auto; }
+.view-calm-closeup .speaker-alex::after { left:calc(100% - .1cqw); top:70%; transform:rotate(-55deg); }
+.view-outcome[data-branch=mixed] .l2-revision-plate { width:160%; height:160%; left:-20%; top:-45%; }
+.view-beige .l2-revision-plate, .view-green .l2-revision-plate, .view-exhausted-c .l2-revision-plate { width:100%; height:100%; left:0; object-fit:cover; }
+.view-beige .speaker-classmate, .view-exhausted-c .speaker-classmate { top:7%; left:3%; width:34%; }
+.view-beige .speaker-classmate::after, .view-exhausted-c .speaker-classmate::after { top:70%; left:calc(100% - .1cqw); transform:rotate(-55deg); }
+/* Only the lower notebook/study-material cluster is exposed from the approved
+   prop atlas. Soft alpha edge sits entirely over the foreground desk. */
+.l2-workload-prop { position:absolute; width:100%; height:auto; left:0; bottom:-14%; clip-path:inset(70% 0 0 0); mask-image:linear-gradient(transparent 69%,black 80%); pointer-events:none; }
+
+/* A portrait viewport gives dialogue its own foreground space, while the
+   evidence insert retains the authored 16:9 paper composition. */
+@media (max-width:600px) and (max-aspect-ratio:1/1) {
+  .l2-revision-camera { bottom:18%; }
+  .l2-revision-plate,
+  .view-group .l2-revision-plate, .view-outcome .l2-revision-plate,
+  .view-outcome[data-branch=mixed] .l2-revision-plate,
+  .view-alex-three .l2-revision-plate,
+  .view-listening-c .l2-revision-plate, .view-listening-d .l2-revision-plate,
+  .view-beige .l2-revision-plate, .view-green .l2-revision-plate, .view-exhausted-c .l2-revision-plate {
+    width:100%; height:100%; left:0; top:0; object-fit:cover; object-position:50% 50%;
+  }
+  .l2-comic-bubble,
+  .view-listening-c .speaker-classmate, .view-listening-d .speaker-classmate,
+  .view-beige .speaker-classmate, .view-exhausted-c .speaker-classmate,
+  .view-calm-closeup .speaker-alex {
+    left:6%; right:6%; top:auto; bottom:5%; width:auto;
+    font-size:17px; line-height:1.3; padding:12px 15px; border-width:1.5px; border-radius:18px;
+  }
+  .l2-comic-speaker { font-size:10px; }
+  .l2-comic-bubble:not(.speaker-professor)::after { width:14px; height:17px; top:-15px; left:52%; transform:rotate(180deg); }
+  .speaker-professor::after { width:14px; height:17px; }
+  .l2-selected-paper { left:6%; right:6%; bottom:4%; width:auto; font-size:13px; padding:12px 18px; }
+  .l2-selected-paper span { font-size:10px; }
+  .view-alex-three:has(.l2-selected-paper) .speaker-alex { top:3%; bottom:auto; left:4%; right:auto; width:46%; font-size:14px; }
+  .view-alex-three:has(.l2-selected-paper) .speaker-alex::after { top:calc(100% - 1px); left:75%; transform:none; }
+  .l2-outcome-note { font-size:15px; padding:12px 15px; bottom:3%; }
+  .l2-outcome-note small { font-size:11px; }
+  .view-six-paper .l2-revision-camera { bottom:57%; }
+  .view-six-paper .l2-revision-plate { width:100%; left:0; }
+  .view-six-paper .speaker-alex { top:3%; bottom:auto; left:auto; right:3%; width:44%; font-size:14px; padding:10px; }
+  .view-six-paper .speaker-alex::after { top:80%; left:-12px; transform:rotate(55deg); }
+  .l2-six-live-paper { top:45%; bottom:3%; width:92%; right:4%; transform:none; }
+  .l2-six-live-paper .l2-checklist-row-label { font-size:3.6cqw !important; }
+  .l2-revision-scene[data-revision-shot=original-evidence] { top:25%; bottom:auto; height:auto; aspect-ratio:16/9; }
+}
+
+/* REV-06 only: continuous group questions and clean cuts, using existing art.
+   The Alex crop excludes the baked blank notebook; one existing paper prop
+   occupies its foreground space, without a second notebook or painted seams. */
+.l2-six-scene.view-six-group .l2-revision-plate { width:132%; height:132%; left:-16%; top:-29%; object-position:50% 75%; }
+.l2-six-scene[data-revision-shot=d-asks] .speaker-classmate { left:auto; right:5%; }
+.l2-six-scene[data-revision-shot=c-asks] .speaker-classmate::after { left:25%; transform:none; }
+.l2-six-scene[data-revision-shot=d-asks] .speaker-classmate::after { left:30%; transform:scaleX(-1); }
+.l2-six-scene.view-professor-wide .l2-revision-plate { width:100%; height:100%; left:0; top:0; object-fit:contain; }
+.l2-six-scene.view-professor-wide { background:#171711; }
+.l2-six-alex-crop { position:absolute; left:0; top:0; width:49%; height:100%; }
+.l2-six-scene .l2-six-live-paper { right:3%; top:5%; bottom:7%; width:49%; transform:rotate(1deg); }
+.l2-six-scene.view-six-paper .speaker-alex { left:2%; bottom:5%; width:43%; font-size:2.05cqw; }
+.l2-six-demo-note { display:block; margin-top:.5cqw; text-align:center; color:#fff2d9; font:1cqw/1.3 Georgia,serif; }
+@media (max-width:600px) and (max-aspect-ratio:1/1) {
+  /* Preserve both speaking classmates in narrow screens instead of cropping
+     the left female classmate out. The existing group artwork is unchanged. */
+  .l2-six-scene.view-six-group .l2-revision-camera { top:35%; bottom:auto; height:auto; aspect-ratio:16/9; overflow:hidden; }
+  .l2-six-scene.view-six-group .l2-revision-plate { width:132%; height:132%; left:-16%; top:-29%; object-position:50% 75%; }
+  .l2-six-scene.view-six-group .speaker-classmate { left:6%; right:6%; top:auto; bottom:calc(65% + 10px); width:auto; }
+  .l2-six-scene.view-six-group .speaker-classmate::after { top:calc(100% - 1px); }
+  .l2-six-scene[data-revision-shot=c-asks] .speaker-classmate::after { left:10%; }
+  .l2-six-scene[data-revision-shot=d-asks] .speaker-classmate::after { left:76%; }
+  .l2-six-scene.view-professor-wide .l2-revision-camera { bottom:0; }
+  .l2-six-scene.view-professor-wide .speaker-professor { left:6%; right:6%; bottom:5%; width:auto; }
+  .l2-six-scene.view-six-paper .l2-revision-camera { bottom:57%; }
+  .l2-six-alex-crop { width:54%; }
+  .l2-six-scene.view-six-paper .speaker-alex { left:auto; right:3%; top:3%; bottom:auto; width:44%; font-size:14px; }
+  .l2-six-scene .l2-six-live-paper { top:45%; bottom:5%; width:92%; right:4%; transform:none; }
+  .l2-six-demo-note { font-size:11px; }
+}

@@ -1,0 +1,8 @@
+html,body,#root { margin:0; width:100%; height:100%; overflow:hidden; background:#111710; }
+.l3-film { position:relative; width:100%; height:100%; overflow:hidden; container-type:inline-size; }
+.l3-metric-name { position:absolute; z-index:3; left:4%; right:4%; top:4%; margin:0; color:#fff4d7; font:400 2.65cqw/1.2 Georgia,serif; text-shadow:0 1px 3px #172019,0 2px 8px #172019; pointer-events:none; }
+.l3-spoken { position:absolute; z-index:3; left:10%; right:10%; bottom:7%; text-align:center; pointer-events:none; }
+.l3-speaker { margin:0 0 .6cqw; font:600 .85cqw/1.3 Arial,sans-serif; letter-spacing:.12em; }
+.l3-spoken p:last-child { margin:0; font:400 2.15cqw/1.5 Georgia,serif; }
+.l3-end-cover { position:absolute; inset:0; z-index:4; background:#111710; pointer-events:none; }
+.l3-loading { color:#eee1c9; font:16px Georgia,serif; text-align:center; margin-top:40vh; }

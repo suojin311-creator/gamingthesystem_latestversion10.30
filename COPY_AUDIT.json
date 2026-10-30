@@ -1,0 +1,1787 @@
+{
+  "source": "Mg614/gaming-the-system-final",
+  "branch": "main",
+  "commit": "0f3bacc10427fd0c62ffa0fff3bae74f5c1e432a",
+  "included": [
+    {
+      "path": "index.html",
+      "sha256": "ccaf13f137a0d22ac4db919be6b7ea198460c426586df572c8442cef0e3d00b3",
+      "bytes": 511
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "68429a5480865c8bebfedaf52aa09b215fd11b51b2649532cb013777fb6f3476",
+      "bytes": 43538
+    },
+    {
+      "path": "package.json",
+      "sha256": "5d887e2968156925815d2ad2ca80512542508ab9b7aecec41f7d05645038b6c3",
+      "bytes": 2199
+    },
+    {
+      "path": "revision-assets/level1/L1-01-studying.png",
+      "sha256": "9426bb25b45cce140fb1c986d320435116e82bde0ad17a6ec104d561283fb460",
+      "bytes": 2384151
+    },
+    {
+      "path": "revision-assets/level1/L1-02-books-aside.png",
+      "sha256": "ea6536b7865cea22e9bb4908efc4740e833b908a205b5af94974581df7ca9e5c",
+      "bytes": 2595803
+    },
+    {
+      "path": "revision-assets/level1/L1-03-knowing-smile.png",
+      "sha256": "d84ac24aa8e8b323c1aa6e0aaa7f2da131a316137a96329f9e4e133505b9e6f3",
+      "bytes": 1945406
+    },
+    {
+      "path": "revision-assets/level1/L1-04-classmate-surprised.png",
+      "sha256": "76ff0e04cc86beb6ea9f3f2681b002b2edc5075c944b18106e0e0fc9e01f4dce",
+      "bytes": 2285850
+    },
+    {
+      "path": "revision-assets/level1/derived/L1-alex-talking.png",
+      "sha256": "41bcd8ed74535c63b9f341cb3ea690dae0ef11ee3cdff79851aa47490d0c076f",
+      "bytes": 340060
+    },
+    {
+      "path": "revision-assets/level1/derived/L1-books-aside-opaque.png",
+      "sha256": "d51e0a0a535acc66dc4e167f38d24bd0edd7104fbd9074a96e48b7635b468aa0",
+      "bytes": 2107991
+    },
+    {
+      "path": "revision-assets/level2/L2-01-classmate-c-listening.png",
+      "sha256": "e6addbdca3445eef2a757f6eb8249a88687e42977befb9f759091af3eec52c04",
+      "bytes": 2188178
+    },
+    {
+      "path": "revision-assets/level2/L2-02-classmate-d-listening.png",
+      "sha256": "ab7fdeba0c8dda8f1024df5d101fb51576c500cfd4069d318ddef07e062228e3",
+      "bytes": 2272876
+    },
+    {
+      "path": "revision-assets/level2/L2-03-classmate-impressed.png",
+      "sha256": "5c6cc3f1a39575ccb42d46e326ccbd7e214e50e3b9336cf52356dadc25417f1f",
+      "bytes": 1872229
+    },
+    {
+      "path": "revision-assets/level2/L2-04-alex-presenting-checklist.png",
+      "sha256": "87cf4f502bda445ec5482d156ba1218057d95410f32b09d2a48beb759b76c389",
+      "bytes": 2058945
+    },
+    {
+      "path": "revision-assets/level2/L2-05-classmate-exhausted.png",
+      "sha256": "02a8cb28fc8e4409ff431abc9626d64e74271f3eadde04d7f7c250e8ffd1eaec",
+      "bytes": 2049030
+    },
+    {
+      "path": "revision-assets/level2/L2-06-classmate-overwhelmed.png",
+      "sha256": "14e6d27dda2bbe6cb10843c2757b1a97b585368f829989c05231ffe4cb79152a",
+      "bytes": 2308840
+    },
+    {
+      "path": "revision-assets/level2/L2-07-homework-stacks.png",
+      "sha256": "00ceac1fa171901b5654e49d951e53fdf680b2d9426d0d10a04506691a60ee65",
+      "bytes": 2805178
+    },
+    {
+      "path": "revision-assets/level2/L2-08-classmate-c-exhausted.png",
+      "sha256": "8667d5928dba71f8d57521646afd181ebcb3c11c0b8fe8c284d71d8facbb42fb",
+      "bytes": 2157481
+    },
+    {
+      "path": "revision-assets/level2/L2-Professor-POV-Extreme-Wide.png",
+      "sha256": "d6b14a6662de64544046add264e05e6a412eebd6f4bcccdd15a3dfeb2030570e",
+      "bytes": 2341968
+    },
+    {
+      "path": "scripts/cinematic-dissolve.mjs",
+      "sha256": "e2e1b266210c8eb835366d96823e9a463d07b661438679e2373a00302e60720b",
+      "bytes": 2810
+    },
+    {
+      "path": "scripts/cinematic-reading.mjs",
+      "sha256": "3e4307a43e934a3c3f3f6ec6180b49903d0a34ca073413dc7409acfa3852948d",
+      "bytes": 150
+    },
+    {
+      "path": "scripts/ending-animation/Composition.jsx",
+      "sha256": "5856aec8bf0d302ba95ecb09bc01766e7cec7fd7d34cea5b303d3cde44d31f46",
+      "bytes": 3720
+    },
+    {
+      "path": "scripts/ending-animation/Memories.jsx",
+      "sha256": "6165211435a9bdc7f3e980a478102d7f46df349cb8f7715bd62b3b533eb4e8c8",
+      "bytes": 2245
+    },
+    {
+      "path": "scripts/ending-animation/Still.jsx",
+      "sha256": "fb974c1685453c3f14521abd2494d3622d0ab5f2cf94065424b58f2c6ba99a81",
+      "bytes": 313
+    },
+    {
+      "path": "scripts/ending-animation/film.css",
+      "sha256": "983fca4caa1e196427630ab96881e457217ab93f7e5e29b0c15f288084507c28",
+      "bytes": 5020
+    },
+    {
+      "path": "scripts/ending-animation/preview-entry.jsx",
+      "sha256": "b4d6d662689b084f2cf735028895cc99c733b084dc2dcbf5ac06bdc3e9ecf2e3",
+      "bytes": 5392
+    },
+    {
+      "path": "scripts/ending-animation/preview.config.mjs",
+      "sha256": "ddc87a38be55ce1918b8d650870897a8ead98f6204304ff89e3f11709d3990ca",
+      "bytes": 3517
+    },
+    {
+      "path": "scripts/ending-animation/timeline.mjs",
+      "sha256": "5894ee82db23aa840e886e119ab890c137d28e1625420f29e2264d12da015716",
+      "bytes": 2181
+    },
+    {
+      "path": "scripts/ending-film.d.mts",
+      "sha256": "7d73f20cf354ee3bd47f27c67277146ab64855bf8241ae6ccdb1f9e8aecaea26",
+      "bytes": 102
+    },
+    {
+      "path": "scripts/ending-film.mjs",
+      "sha256": "fd9486d70110a738bf7b96bdc01b39d865c45a9de79813fa658998885a532e40",
+      "bytes": 3682
+    },
+    {
+      "path": "scripts/ending-preview.mjs",
+      "sha256": "55f0a287b27154a8422c0301e1ee4923c3b3ac848bcf1d3f3b07ad832b7e74c8",
+      "bytes": 2058
+    },
+    {
+      "path": "scripts/ending-source/assets/backgrounds/BG_Office_FirstPerson_v01.png",
+      "sha256": "ca53d7d185afa74b85a81a753f833bb596d8c85d3d3b7f1d71164c7d35a1adb8",
+      "bytes": 2468089
+    },
+    {
+      "path": "scripts/ending-source/assets/characters/alex-rig/production/actions/checking/ALEX-HAND-CHECKING.png",
+      "sha256": "350047732bf2ba6b46911374dd8b34629bcbe2c2853f7296adaa98c5c8c928f1",
+      "bytes": 932757
+    },
+    {
+      "path": "scripts/ending-source/assets/characters/alex-rig/production/actions/checking/ALEX-PROD-005-CLEAN.png",
+      "sha256": "1acc963fd47d8c9867c588bcdb8cc057ce0e8c216f9d7a470cdea1ff4d30d7e3",
+      "bytes": 1873879
+    },
+    {
+      "path": "scripts/ending-source/index.html",
+      "sha256": "5ae785cffe7c82b5ae7622c288b7d45b8c13cc7c8fe629bcc1c5dc76490a656f",
+      "bytes": 354
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/ending/OfficeReveal.tsx",
+      "sha256": "e712116bd497dd08be0e6dc072380a3c28465428e7b63eda40af1c99b5794c5a",
+      "bytes": 2991
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/ending/ending.css",
+      "sha256": "d99dba6f101cc4af9cb1ba8634cad56b82acf7810c584805534d7fced45c0a86",
+      "bytes": 7967
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/ending/endingTimeline.ts",
+      "sha256": "6e5f147d98de35fec8249e348308ef767aa5054edda70c43f8944cff45fa0392",
+      "bytes": 3226
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/ending/types.ts",
+      "sha256": "3504797aa72d1c03499e7666828365f7f487e6880ed7a64ed4e4f5b69615d06c",
+      "bytes": 915
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/level1/ConsequenceScene.tsx",
+      "sha256": "4c4926563b0c13ec95afa66150918f928dd5b332482ae970dadc45cdf9965221",
+      "bytes": 10928
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/level1/branch.css",
+      "sha256": "ea9d1b0605391be01cbea50b2b88d227d11e94cbe1e26003d49b13c417684383",
+      "bytes": 7246
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/level1/level1Content.ts",
+      "sha256": "b79a93346456ba36f430a806918007289c4054655ea080eb0623853af4526b61",
+      "bytes": 3443
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/level2/AlexCheckingSequence.tsx",
+      "sha256": "0246e54fbd7fe8db98ff72e84ac16aa773bd322c9431bb335349aac02abd11f4",
+      "bytes": 4139
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/level2/ChecklistSystem.tsx",
+      "sha256": "7020a6163eff033ace4cca40c63116b3d8241643309717b676dcf0ac436f792a",
+      "bytes": 7893
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/level2/alexChecking.css",
+      "sha256": "1499a99126cf152672f90eb9eb94e513222011142aecdafac8ea983d149b5847",
+      "bytes": 1618
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/level2/alexCheckingTimeline.ts",
+      "sha256": "a409f4cf6255bf9c22d0eb05449b7f4ec106228ff642d5f592797400594fbbd9",
+      "bytes": 1127
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/level2/checklist.css",
+      "sha256": "b2bea14b63abd010019906dc2abc411c08cbd515c93b463ef668233657736ea0",
+      "bytes": 8184
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/level2/checklistPresentation.ts",
+      "sha256": "ce6afe7653042faf44d82e224a9662219c3bcf083b54674493c7b9b50c055866",
+      "bytes": 1904
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/level3b/types.ts",
+      "sha256": "c2bf001b7c9734098ec97edee17e21f5a6c7f7521ea5afd4c90313e7b3426a04",
+      "bytes": 1917
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/shared/engine/CinematicCamera/CinematicCamera.tsx",
+      "sha256": "68e739fda29e188abce5c9592957e84214ba39285435551f27931943a657fc3c",
+      "bytes": 1275
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/shared/engine/EnvironmentMotion/EnvironmentMotion.tsx",
+      "sha256": "07f7126a0fc67b32af32290328d6d23aec047616f2abaae6083fa8e45801b39e",
+      "bytes": 1177
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/shared/engine/timeline/animationMath.ts",
+      "sha256": "09cbdda1919725d68242f8d73a78f5f119cff0b6fa882c43c77eb0ec047bf949",
+      "bytes": 571
+    },
+    {
+      "path": "scripts/ending-source/src/cinematics/shared/engine/types.ts",
+      "sha256": "f3750c71e22d8930bc1b3cc266ca25ffeeba0d760f6a8319e1f7a32ab8fca47c",
+      "bytes": 538
+    },
+    {
+      "path": "scripts/ending-source/src/main.tsx",
+      "sha256": "800dd4891878bc064c9417d9ddf6b4284a845eca82bd7150ebf9bf226b7f3d99",
+      "bytes": 876
+    },
+    {
+      "path": "scripts/ending-source/src/shared/contracts/index.ts",
+      "sha256": "eb8c4fb1f480db6d55b418876ea2ad1ebdce6b7da36b9d3dd5356b504b86d310",
+      "bytes": 2248
+    },
+    {
+      "path": "scripts/level1-film.d.mts",
+      "sha256": "a0226d7c11c0593ece68b8bf905dc07266cbbe4d7d88ced0b06477e25c7ed070",
+      "bytes": 119
+    },
+    {
+      "path": "scripts/level1-film.mjs",
+      "sha256": "19f5c0dae02383bd87eeaf9a6883c5d2c22ad912c9f17948ffcb9ee56874772e",
+      "bytes": 3468
+    },
+    {
+      "path": "scripts/level1-settlement/cinematic-entry.jsx",
+      "sha256": "38ff75f48bd5ecf3a49b20b92560b6322e853c232c66f0a66cfe08c3fae3df46",
+      "bytes": 5597
+    },
+    {
+      "path": "scripts/level1-settlement/cinematic.config.mjs",
+      "sha256": "f50645d0e2687b32452f2a85cef7a5d7261425a939bcafa874bc9a9d42ed7945",
+      "bytes": 1680
+    },
+    {
+      "path": "scripts/level1-settlement/content.mjs",
+      "sha256": "e63ef23ab393d139824964cf943472947e414f0575f5814a0493231947137a5e",
+      "bytes": 449
+    },
+    {
+      "path": "scripts/level1-settlement/game.config.mjs",
+      "sha256": "eb072bf4a1396532f5d7529d6bb768d5dcc181f9b08146d786065f12158c38f7",
+      "bytes": 524
+    },
+    {
+      "path": "scripts/level1-settlement/pacing.mjs",
+      "sha256": "055da84406627c2a46305a3028f5e7649b8a94f3a9dd3651ded70d074d64ce0e",
+      "bytes": 1275
+    },
+    {
+      "path": "scripts/level1-settlement/package.py",
+      "sha256": "f9ac0e37d9ff55b4329e5da6e954c6abb8198cf31fbe65088b96b3365a15f9e7",
+      "bytes": 4608
+    },
+    {
+      "path": "scripts/level1-settlement/presentation.jsx",
+      "sha256": "fc1a313592a9374b374cb8edd4cad03b42eadc5b74c4d16a1666413482550e71",
+      "bytes": 3154
+    },
+    {
+      "path": "scripts/level1-settlement/rev04.css",
+      "sha256": "0696352a69361858c995c9d70b89bf256371b0031d93cac24150b6a75c12e7db",
+      "bytes": 2064
+    },
+    {
+      "path": "scripts/level1-settlement/rev04.jsx",
+      "sha256": "80d6b85802cd1ea5128a9072438452c79b447c5961b2baa363f493e699b5324f",
+      "bytes": 4455
+    },
+    {
+      "path": "scripts/level1-settlement/rev04.mjs",
+      "sha256": "ee4b86725a04dc9cd3e2559490e065559f5c162e50c5e78afdcc1eed51ac34db",
+      "bytes": 800
+    },
+    {
+      "path": "scripts/level1-settlement/transitions.mjs",
+      "sha256": "52e9e292f19e8ffa742aaba46aa4c4c1d3d612f8d8900cc20618d42e41ad3912",
+      "bytes": 845
+    },
+    {
+      "path": "scripts/level1-source/index.html",
+      "sha256": "5ae785cffe7c82b5ae7622c288b7d45b8c13cc7c8fe629bcc1c5dc76490a656f",
+      "bytes": 354
+    },
+    {
+      "path": "scripts/level1-source/src/cinematics/level1/ConsequenceScene.tsx",
+      "sha256": "4c4926563b0c13ec95afa66150918f928dd5b332482ae970dadc45cdf9965221",
+      "bytes": 10928
+    },
+    {
+      "path": "scripts/level1-source/src/cinematics/level1/branch.css",
+      "sha256": "ea9d1b0605391be01cbea50b2b88d227d11e94cbe1e26003d49b13c417684383",
+      "bytes": 7246
+    },
+    {
+      "path": "scripts/level1-source/src/cinematics/level1/level1.css",
+      "sha256": "a1493bfc7b40bf860794428110b4ae03885f0bbe21bb8de965833089f0e71e9c",
+      "bytes": 2909
+    },
+    {
+      "path": "scripts/level1-source/src/cinematics/level1/level1Content.ts",
+      "sha256": "b79a93346456ba36f430a806918007289c4054655ea080eb0623853af4526b61",
+      "bytes": 3443
+    },
+    {
+      "path": "scripts/level1-source/src/cinematics/shared/engine/CinematicCamera/CinematicCamera.tsx",
+      "sha256": "68e739fda29e188abce5c9592957e84214ba39285435551f27931943a657fc3c",
+      "bytes": 1275
+    },
+    {
+      "path": "scripts/level1-source/src/cinematics/shared/engine/DialogueLayer/DialogueLayer.tsx",
+      "sha256": "3521eacc8dbd5281a11d5dcf87e5f620dcdde8b5e223b6d6a6e2fdd1c6ea54fd",
+      "bytes": 489
+    },
+    {
+      "path": "scripts/level1-source/src/cinematics/shared/engine/EnvironmentMotion/EnvironmentMotion.tsx",
+      "sha256": "07f7126a0fc67b32af32290328d6d23aec047616f2abaae6083fa8e45801b39e",
+      "bytes": 1177
+    },
+    {
+      "path": "scripts/level1-source/src/cinematics/shared/engine/timeline/animationMath.ts",
+      "sha256": "09cbdda1919725d68242f8d73a78f5f119cff0b6fa882c43c77eb0ec047bf949",
+      "bytes": 571
+    },
+    {
+      "path": "scripts/level1-source/src/cinematics/shared/engine/types.ts",
+      "sha256": "f3750c71e22d8930bc1b3cc266ca25ffeeba0d760f6a8319e1f7a32ab8fca47c",
+      "bytes": 538
+    },
+    {
+      "path": "scripts/level1-source/src/main.tsx",
+      "sha256": "71c58fce0104d8ebe9fe994652ff860b52da35e34e6c44c651211ae6f0ff243e",
+      "bytes": 1091
+    },
+    {
+      "path": "scripts/level1-source/src/shared/contracts/index.ts",
+      "sha256": "eb8c4fb1f480db6d55b418876ea2ad1ebdce6b7da36b9d3dd5356b504b86d310",
+      "bytes": 2248
+    },
+    {
+      "path": "scripts/level1-source/src/styles.css",
+      "sha256": "6a30c3031b764bcb5ae1de7bf061abda6363a8986feb742f0b6fe0368eb5f5ce",
+      "bytes": 8699
+    },
+    {
+      "path": "scripts/level2-animation/RevisionScene.jsx",
+      "sha256": "616ce26e5835f0acf9ce91226d5ce796ed1ada1a7e2a99c6a907937f4e2b2721",
+      "bytes": 6524
+    },
+    {
+      "path": "scripts/level2-animation/ThreeMetricsScene.jsx",
+      "sha256": "37a962690b65e1ed7cc549ad5d7f9adbc3331bac9f800037eb72cc169512410e",
+      "bytes": 2213
+    },
+    {
+      "path": "scripts/level2-animation/cinematic.config.mjs",
+      "sha256": "a85303deaa0fe9fe6796502fb6fa6067ef96407efc6b555a5ea382c3825968b6",
+      "bytes": 1749
+    },
+    {
+      "path": "scripts/level2-animation/film-entry.jsx",
+      "sha256": "5cab12520d74037c8a39e55246853cb184aff8d59a8c6b7d135b8c088d735214",
+      "bytes": 8131
+    },
+    {
+      "path": "scripts/level2-animation/film.css",
+      "sha256": "309516b5240908ad766ce7ad4ae16c276a1cb1b48e28ec42875bcd724280ef44",
+      "bytes": 2108
+    },
+    {
+      "path": "scripts/level2-animation/pacing.mjs",
+      "sha256": "b51e406cca3145240fc7adf4b807352c567121f50dcd1aca2576328d9d8969d1",
+      "bytes": 2211
+    },
+    {
+      "path": "scripts/level2-animation/revision-timeline.mjs",
+      "sha256": "201c02550babe69f0fc8e73dad36751ca114974b29463370aeff9cfedea55fdb",
+      "bytes": 3268
+    },
+    {
+      "path": "scripts/level2-animation/revision.css",
+      "sha256": "dfb944bf91da8c192e383ba60746f60c47e2e773cb231a31cd94851a31554e65",
+      "bytes": 9457
+    },
+    {
+      "path": "scripts/level2-animation/three-metrics.css",
+      "sha256": "5fb6dcb1b538228e3d006c0690576f6ea5b4fe9884cbe7784917590bb8790b6b",
+      "bytes": 1841
+    },
+    {
+      "path": "scripts/level2-film.d.mts",
+      "sha256": "726a3a86b3ed2c9404efc68ac48167a68efa1c3426258a85d0b69ae2b9e70325",
+      "bytes": 106
+    },
+    {
+      "path": "scripts/level2-film.mjs",
+      "sha256": "67d5f99533d9f86911907c074063c889e99bd94ae2776d0f134e70fd68f7562c",
+      "bytes": 3428
+    },
+    {
+      "path": "scripts/level2-source/assets/characters/alex-rig/production/actions/checking/ALEX-HAND-CHECKING.png",
+      "sha256": "350047732bf2ba6b46911374dd8b34629bcbe2c2853f7296adaa98c5c8c928f1",
+      "bytes": 932757
+    },
+    {
+      "path": "scripts/level2-source/assets/characters/alex-rig/production/actions/checking/ALEX-PROD-005-CLEAN.png",
+      "sha256": "1acc963fd47d8c9867c588bcdb8cc057ce0e8c216f9d7a470cdea1ff4d30d7e3",
+      "bytes": 1873879
+    },
+    {
+      "path": "scripts/level2-source/index.html",
+      "sha256": "5ae785cffe7c82b5ae7622c288b7d45b8c13cc7c8fe629bcc1c5dc76490a656f",
+      "bytes": 354
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/level2/AlexCheckingSequence.tsx",
+      "sha256": "0246e54fbd7fe8db98ff72e84ac16aa773bd322c9431bb335349aac02abd11f4",
+      "bytes": 4139
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/level2/AlexPerformance.tsx",
+      "sha256": "d465fcc94716e225c91a580966c0b91f7ea566933d74e00a8cd8f04de4da284c",
+      "bytes": 1725
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/level2/ChecklistSystem.tsx",
+      "sha256": "7020a6163eff033ace4cca40c63116b3d8241643309717b676dcf0ac436f792a",
+      "bytes": 7893
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/level2/Level2ConsequencesSequence.tsx",
+      "sha256": "3de9e4c574b7c49babb100f802f00529182ad0ffb2d7ef173ac63698a92c7de1",
+      "bytes": 11893
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/level2/alexChecking.css",
+      "sha256": "1499a99126cf152672f90eb9eb94e513222011142aecdafac8ea983d149b5847",
+      "bytes": 1618
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/level2/alexCheckingTimeline.ts",
+      "sha256": "a409f4cf6255bf9c22d0eb05449b7f4ec106228ff642d5f592797400594fbbd9",
+      "bytes": 1127
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/level2/alexPerformance.css",
+      "sha256": "47de84beb379b6e777bcdd075d1f26d55a6376ac8c2f3b6766b47d3290db1174",
+      "bytes": 944
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/level2/checklist.css",
+      "sha256": "b2bea14b63abd010019906dc2abc411c08cbd515c93b463ef668233657736ea0",
+      "bytes": 8184
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/level2/checklistPresentation.ts",
+      "sha256": "ce6afe7653042faf44d82e224a9662219c3bcf083b54674493c7b9b50c055866",
+      "bytes": 1904
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/level2/level2.css",
+      "sha256": "dfbf694eff6e9d63db328577e5439eeb5898912a9426c8818c5a9aa3d1b6c095",
+      "bytes": 7505
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/level2/level2Performance.ts",
+      "sha256": "1b0262d5dfdbf3f332e1a42e605e3efe43d7b27bdda2f41ecac4fd511a871383",
+      "bytes": 1870
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/level2/level2Timeline.ts",
+      "sha256": "fde8b11b4d9781d5f1e6d543b787d233e5d5db69c7c60e963c9a3a16f6db6d9d",
+      "bytes": 4330
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/shared/engine/CinematicCamera/CinematicCamera.tsx",
+      "sha256": "68e739fda29e188abce5c9592957e84214ba39285435551f27931943a657fc3c",
+      "bytes": 1275
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/shared/engine/DialogueLayer/DialogueLayer.tsx",
+      "sha256": "3521eacc8dbd5281a11d5dcf87e5f620dcdde8b5e223b6d6a6e2fdd1c6ea54fd",
+      "bytes": 489
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/shared/engine/EnvironmentMotion/EnvironmentMotion.tsx",
+      "sha256": "07f7126a0fc67b32af32290328d6d23aec047616f2abaae6083fa8e45801b39e",
+      "bytes": 1177
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/shared/engine/audio/useCinematicAudio.ts",
+      "sha256": "351a5f3595ed0f0af99f9406eee65626e5f0cd13c0d58225e832c104fc37787e",
+      "bytes": 1030
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/shared/engine/timeline/animationMath.ts",
+      "sha256": "09cbdda1919725d68242f8d73a78f5f119cff0b6fa882c43c77eb0ec047bf949",
+      "bytes": 571
+    },
+    {
+      "path": "scripts/level2-source/src/cinematics/shared/engine/types.ts",
+      "sha256": "f3750c71e22d8930bc1b3cc266ca25ffeeba0d760f6a8319e1f7a32ab8fca47c",
+      "bytes": 538
+    },
+    {
+      "path": "scripts/level2-source/src/main.tsx",
+      "sha256": "da8fe052a2d7655533b3c89926e98d7eb9fa5b515a2bc7834b73162ab9a2a061",
+      "bytes": 897
+    },
+    {
+      "path": "scripts/level2-source/src/shared/contracts/index.ts",
+      "sha256": "eb8c4fb1f480db6d55b418876ea2ad1ebdce6b7da36b9d3dd5356b504b86d310",
+      "bytes": 2248
+    },
+    {
+      "path": "scripts/level3-animation/approved.config.mjs",
+      "sha256": "7b88b2124ca52fef1831fb138c87c9ac61f7e3b01c4c806514a2e66160e4f9cb",
+      "bytes": 585
+    },
+    {
+      "path": "scripts/level3-animation/cinematic.config.mjs",
+      "sha256": "3057208541f587cbed84b0b22458b4403e72d0585d16ff86f008a7760dc71a2e",
+      "bytes": 2651
+    },
+    {
+      "path": "scripts/level3-animation/film-entry.jsx",
+      "sha256": "092c6ef82ae1073659d11659ff23ac88d779880c01e3907acb3b3566c35ec756",
+      "bytes": 3744
+    },
+    {
+      "path": "scripts/level3-animation/film.css",
+      "sha256": "bd3092bb3b588ec8c3ab939c1c140898ab47f2306ef23c64db152d172be96c19",
+      "bytes": 877
+    },
+    {
+      "path": "scripts/level3-animation/pacing.mjs",
+      "sha256": "04bdfe279c4e1387181d8e62f0aaf0ee5ad39c2b5ac3dd55672bc43cba106895",
+      "bytes": 1408
+    },
+    {
+      "path": "scripts/level3-animation/request.mjs",
+      "sha256": "eaaa0f869989110b8392d57a7512d6ffc5601cf54c237afce9c7841cc18bf6f3",
+      "bytes": 567
+    },
+    {
+      "path": "scripts/level3-film.d.mts",
+      "sha256": "25ee54ce17b3e718517ee25ff8641d2aba78f252b51981e2bdb4e199a7e783ac",
+      "bytes": 110
+    },
+    {
+      "path": "scripts/level3-film.mjs",
+      "sha256": "9e4fcb9f43d48e74def356a4126496a6e7fd2de08817ee1390a4318b03c07a74",
+      "bytes": 3440
+    },
+    {
+      "path": "scripts/level3-source/docs/visual-style/references/level3-metric-adaptations/REF-L3A-001.png",
+      "sha256": "b34b51ca24e7ab35e010b762b7aeb1b3dac78debd8fc276fd1df1972f6a30e16",
+      "bytes": 2265317
+    },
+    {
+      "path": "scripts/level3-source/docs/visual-style/references/level3-metric-adaptations/REF-L3A-002.png",
+      "sha256": "e02372470b32a03d6c173e33744194c9cee79d64878ff500dc114fbc61851d82",
+      "bytes": 2084712
+    },
+    {
+      "path": "scripts/level3-source/docs/visual-style/references/level3-metric-adaptations/REF-L3A-003.png",
+      "sha256": "b32814521cfa2f73642d437e42e21fb1e3c16735d8a85a3a9269218a26088a08",
+      "bytes": 2095919
+    },
+    {
+      "path": "scripts/level3-source/docs/visual-style/references/level3-metric-adaptations/REF-L3A-004.png",
+      "sha256": "b250a2ef5717b2e18d2185e6a746f0916adf512de352754fe697a6b0d1263d33",
+      "bytes": 2177943
+    },
+    {
+      "path": "scripts/level3-source/docs/visual-style/references/level3-metric-adaptations/REF-L3A-005.png",
+      "sha256": "730cc633420a01f81083db6b0d0437c0a1c986192334d813b3d2b4745e7b72f4",
+      "bytes": 2152596
+    },
+    {
+      "path": "scripts/level3-source/docs/visual-style/references/level3-metric-adaptations/REF-L3A-006.png",
+      "sha256": "c04c52cd63cbccaf76d1673bbf251c3b14b5a6789c8eb79104229c772c4f16a9",
+      "bytes": 2185307
+    },
+    {
+      "path": "scripts/level3-source/index.html",
+      "sha256": "5ae785cffe7c82b5ae7622c288b7d45b8c13cc7c8fe629bcc1c5dc76490a656f",
+      "bytes": 354
+    },
+    {
+      "path": "scripts/level3-source/src/cinematics/level3/MetricAdaptationScene.tsx",
+      "sha256": "cea90a7d938f9f773e76f9651f0b6321fbaf203987d060afbed1ca14b7027389",
+      "bytes": 16990
+    },
+    {
+      "path": "scripts/level3-source/src/cinematics/level3/MetricAdaptationSequence.tsx",
+      "sha256": "e6100e9ddcc6e774b25492b4c6d91711200fcab87c7c07eb15ae7eb9671e725f",
+      "bytes": 5159
+    },
+    {
+      "path": "scripts/level3-source/src/cinematics/level3/adaptationTimeline.ts",
+      "sha256": "b58bd46ddb05e4b984eba50b81aa96d2c3bb9d3117bca7714eed9a4cbc24ab01",
+      "bytes": 5532
+    },
+    {
+      "path": "scripts/level3-source/src/cinematics/level3/level3a.css",
+      "sha256": "d5f864401741a71af6bb2362278ad711fc8fd10a20c6bb942313d6b5783c5911",
+      "bytes": 6630
+    },
+    {
+      "path": "scripts/level3-source/src/cinematics/shared/engine/CinematicCamera/CinematicCamera.tsx",
+      "sha256": "68e739fda29e188abce5c9592957e84214ba39285435551f27931943a657fc3c",
+      "bytes": 1275
+    },
+    {
+      "path": "scripts/level3-source/src/cinematics/shared/engine/DialogueLayer/DialogueLayer.tsx",
+      "sha256": "3521eacc8dbd5281a11d5dcf87e5f620dcdde8b5e223b6d6a6e2fdd1c6ea54fd",
+      "bytes": 489
+    },
+    {
+      "path": "scripts/level3-source/src/cinematics/shared/engine/EnvironmentMotion/EnvironmentMotion.tsx",
+      "sha256": "07f7126a0fc67b32af32290328d6d23aec047616f2abaae6083fa8e45801b39e",
+      "bytes": 1177
+    },
+    {
+      "path": "scripts/level3-source/src/cinematics/shared/engine/audio/useCinematicAudio.ts",
+      "sha256": "351a5f3595ed0f0af99f9406eee65626e5f0cd13c0d58225e832c104fc37787e",
+      "bytes": 1030
+    },
+    {
+      "path": "scripts/level3-source/src/cinematics/shared/engine/timeline/animationMath.ts",
+      "sha256": "09cbdda1919725d68242f8d73a78f5f119cff0b6fa882c43c77eb0ec047bf949",
+      "bytes": 571
+    },
+    {
+      "path": "scripts/level3-source/src/cinematics/shared/engine/types.ts",
+      "sha256": "f3750c71e22d8930bc1b3cc266ca25ffeeba0d760f6a8319e1f7a32ab8fca47c",
+      "bytes": 538
+    },
+    {
+      "path": "scripts/level3-source/src/main.tsx",
+      "sha256": "42c4b6ca6381db1292d3666721378e4abb2cf414e2117c17f337e90ea89fe956",
+      "bytes": 628
+    },
+    {
+      "path": "scripts/level3-source/src/shared/contracts/index.ts",
+      "sha256": "eb8c4fb1f480db6d55b418876ea2ad1ebdce6b7da36b9d3dd5356b504b86d310",
+      "bytes": 2248
+    },
+    {
+      "path": "scripts/package_ending_preview.py",
+      "sha256": "b577b2062e2a761376e18374ec7d5504839d1642a6e04ee71473b338b04655c8",
+      "bytes": 2838
+    },
+    {
+      "path": "scripts/package_previews.py",
+      "sha256": "89ff8ee51b8d5aabb6f0abfb310e42aaf1adf84d9bf94ea583bff9563fae7a19",
+      "bytes": 9927
+    },
+    {
+      "path": "scripts/package_start.html",
+      "sha256": "8696f4f200fa9b456aafa3242c1a0bf3adc235c974e6e2fec9b0b92a66d63506",
+      "bytes": 2505
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "b1693dc85fdbff2437eb0789b3acc19e9bd64999a648cc7eb78e25f8c77ee2a9",
+      "bytes": 1428
+    },
+    {
+      "path": "src/FullGame.tsx",
+      "sha256": "5f21ac525518d0658b5dc0bf5e3ec359b9cf9ce842d7c76598d3e94aa159dda3",
+      "bytes": 2024
+    },
+    {
+      "path": "src/Gameplay.tsx",
+      "sha256": "d2be3c256cd5348b00bb1e37d48174ef563cd64dc717f6ba97a911c9d043effc",
+      "bytes": 2781
+    },
+    {
+      "path": "src/assets/classroom.png",
+      "sha256": "11c8569a776655b1d9b23f4fb9ce9e4096f3fda78f5f21974c7a3084a56915d0",
+      "bytes": 2190737
+    },
+    {
+      "path": "src/assets/office.png",
+      "sha256": "ca53d7d185afa74b85a81a753f833bb596d8c85d3d3b7f1d71164c7d35a1adb8",
+      "bytes": 2468089
+    },
+    {
+      "path": "src/audio/AudioControls.tsx",
+      "sha256": "2d53b051bad2ebd5a2bc714f995bbf22e5a42dca0283451840229805332fb54f",
+      "bytes": 1117
+    },
+    {
+      "path": "src/audio/GameAudio.tsx",
+      "sha256": "f57ad766dadfc779749a8f4c1947eed9e1e03d9d9440a7eed37cbb544dee6a5b",
+      "bytes": 3040
+    },
+    {
+      "path": "src/audio/SoundReview.tsx",
+      "sha256": "0b8d43b662156ea4c70f9b3c162b77baefbcea8b8c54b47df8059586f9c3b2d6",
+      "bytes": 1721
+    },
+    {
+      "path": "src/audio/assets/SCORE.json",
+      "sha256": "6920be8a0861f9a125bb7bc201cdedd058cc5e8f94bb33bcba7f95f9fa68e1e7",
+      "bytes": 265
+    },
+    {
+      "path": "src/audio/assets/lab.ogg",
+      "sha256": "6e8dcdc0cb1683ce278ba06e248d5cd36c9756b7cad28b533add77c606017b43",
+      "bytes": 807047
+    },
+    {
+      "path": "src/audio/assets/metrics.ogg",
+      "sha256": "55a5671007d4d2aa182a5717c4b985d119bc29bbdb4381ff8ccb20799b997d86",
+      "bytes": 831669
+    },
+    {
+      "path": "src/audio/assets/office.ogg",
+      "sha256": "651caec0e300917816ca92b8b73f39ae59d98fe485a7cd95cea84929e5c10098",
+      "bytes": 823363
+    },
+    {
+      "path": "src/audio/assets/reflection.ogg",
+      "sha256": "31c7b593695771c0f8e880a20e5747a82dabecba18691baabca9f9cde4a086ef",
+      "bytes": 821872
+    },
+    {
+      "path": "src/audio/assets/reveal.ogg",
+      "sha256": "af39c5610ee0c7e8ce5e3d1f7bd7e743c060ef811bd01c5f63b3bc355564c72b",
+      "bytes": 154359
+    },
+    {
+      "path": "src/audio/audio.css",
+      "sha256": "f5f90640b1d4e58b430d19c3a2845867aaea0ed0207aae6f29293dc121ecf633",
+      "bytes": 789
+    },
+    {
+      "path": "src/audio/director.ts",
+      "sha256": "0eb0f12ad7c2430bc58494cebcfd88f76b1c870e889949c5faf5ff9b2f9fec97",
+      "bytes": 7627
+    },
+    {
+      "path": "src/cinematics/README.md",
+      "sha256": "9478e61f3a3cab1271d1d1b1999e14f27b37b5a46ed0ebb07d33ab568e571c9e",
+      "bytes": 1912
+    },
+    {
+      "path": "src/cinematics/comic/ComicBubble.tsx",
+      "sha256": "06a8e18c60e065b78d12059348cef5b1c985fd60c09da25fbb7a09f580b3067d",
+      "bytes": 1006
+    },
+    {
+      "path": "src/cinematics/comic/comic-bubble.css",
+      "sha256": "188b99df4a7584d481572673ea09bd539599ae252b9d6dd1f91b99d097467e7c",
+      "bytes": 1695
+    },
+    {
+      "path": "src/cinematics/ending/EndingCinematic.tsx",
+      "sha256": "a3d2bc61dcdbf8fcfa759cef4bae9d286100f521293d352961f67e783c1c7b8f",
+      "bytes": 2669
+    },
+    {
+      "path": "src/cinematics/ending/film.d.ts",
+      "sha256": "053614f2588b74faaa06720be6d68ce9dacffc0be4081d60879b69f518008ee6",
+      "bytes": 92
+    },
+    {
+      "path": "src/cinematics/ending/input.ts",
+      "sha256": "cec5a5ac790273535b6b19c77e998b9942b26b17c1235f5c839d96b03aba2b2f",
+      "bytes": 2740
+    },
+    {
+      "path": "src/cinematics/ending/styles.css",
+      "sha256": "019c6c3c75fce91192fe93c737452a03cbd1b99ad496cdde33fb8ff0edae3a49",
+      "bytes": 802
+    },
+    {
+      "path": "src/cinematics/level1/LevelOneCinematic.tsx",
+      "sha256": "f94f9e5a1d8db58a02ec5c230544e8b7a68f9c77424094858cb317d8433ad98a",
+      "bytes": 2038
+    },
+    {
+      "path": "src/cinematics/level1/README.md",
+      "sha256": "d0650125237c7ea6689cedab900b2c6928aa79fcd66d3706df634b8248c9b39f",
+      "bytes": 932
+    },
+    {
+      "path": "src/cinematics/level1/film.d.ts",
+      "sha256": "3a3a45c31b31d988f558872397e0d6cdcd7d3eb0d2e190bf1184bac440006fc1",
+      "bytes": 97
+    },
+    {
+      "path": "src/cinematics/level1/styles.css",
+      "sha256": "384e5a1832f59709494617b5a5a2ff8fedda408e0b4585e99ee22cb45c05ead2",
+      "bytes": 191
+    },
+    {
+      "path": "src/cinematics/level2/LevelTwoCinematic.tsx",
+      "sha256": "7503a93c14e4236899a6d9bff4eacf75eb1f35255a9c6c0c62a315226e3c8b52",
+      "bytes": 1715
+    },
+    {
+      "path": "src/cinematics/level2/README.md",
+      "sha256": "46a20b6288307ac1f079ff3fb05108a7ae86193c68da6149dd763f8b3364dba2",
+      "bytes": 1765
+    },
+    {
+      "path": "src/cinematics/level2/film.d.ts",
+      "sha256": "1996be519b3442b14ec86b10c5188b6fa3a99fbca3d8d6595a35980f2542834d",
+      "bytes": 96
+    },
+    {
+      "path": "src/cinematics/level2/styles.css",
+      "sha256": "915a0bc90d517848061115f96bd635b3f171477120c96bc7a3c57ba7c191f895",
+      "bytes": 263
+    },
+    {
+      "path": "src/cinematics/level3/LevelThreeCinematic.tsx",
+      "sha256": "7f2327dd99ddaf1e4c401072441732144e81d5bcae5f8372a485bef54f7a9572",
+      "bytes": 2012
+    },
+    {
+      "path": "src/cinematics/level3/README.md",
+      "sha256": "668a2e8f28244fcf5a37de775d7f407944a95e13f1b9a7ca78669d71c633a178",
+      "bytes": 922
+    },
+    {
+      "path": "src/cinematics/level3/film.d.ts",
+      "sha256": "8e844195f20a5cec55c6bdd899187c66d0d76ed9979c1f10400f67cd5644a9e2",
+      "bytes": 92
+    },
+    {
+      "path": "src/cinematics/level3/mapping.d.mts",
+      "sha256": "8c5137a7086bfea9926db27873e22b7282ff3dec2b87050893c3482c5777aeba",
+      "bytes": 241
+    },
+    {
+      "path": "src/cinematics/level3/mapping.mjs",
+      "sha256": "c1af89c0539af1c2dc55c3ed2347e4570e1a71b42b1256c238cb811b0e23046d",
+      "bytes": 1040
+    },
+    {
+      "path": "src/cinematics/level3/styles.css",
+      "sha256": "a4efa0f4ff43368a97803b263ad01c197e52292ccd989eb7f6e72095cfbf15b4",
+      "bytes": 371
+    },
+    {
+      "path": "src/cinematics/opening/AlexEncounter.tsx",
+      "sha256": "f77a84303d6c5d14a12ef86599761db3ba201615ca68ef9c10726da27d056531",
+      "bytes": 4522
+    },
+    {
+      "path": "src/cinematics/opening/ClassroomAmbient.tsx",
+      "sha256": "8ee75e64f056f444d7a6a89e83bfcd02fb04399c3860fb72e809cab2588d3579",
+      "bytes": 2838
+    },
+    {
+      "path": "src/cinematics/opening/ClassroomScene.tsx",
+      "sha256": "96d7fc3b68660ce35de5f4b8f7d5b0d63d8af962fb8278903172dc9a5d66e133",
+      "bytes": 8842
+    },
+    {
+      "path": "src/cinematics/opening/InteractionCue.tsx",
+      "sha256": "8f46b05be066e49170691b06cd476f6fdf7804a9f5686deee65da1cd162a2c72",
+      "bytes": 362
+    },
+    {
+      "path": "src/cinematics/opening/Opening.tsx",
+      "sha256": "16651f3b05d4265e89b132f9c7e0a9bd87d2c8c0f994f30c138c9cdb4cb1c4aa",
+      "bytes": 11762
+    },
+    {
+      "path": "src/cinematics/opening/README.md",
+      "sha256": "3afcb735875843003e5b0d0af6cf442400cbf3a1836b75c0aadb2dde4425124d",
+      "bytes": 2644
+    },
+    {
+      "path": "src/cinematics/opening/alex-encounter.css",
+      "sha256": "e5a4cc3fe429c0e75e45f3be30c7c21bf9807208d0c475ac5bac25688dadff75",
+      "bytes": 4532
+    },
+    {
+      "path": "src/cinematics/opening/assets/audio/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/cinematics/opening/assets/backgrounds/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/cinematics/opening/assets/backgrounds/BG_Office_FirstPerson_v01.png",
+      "sha256": "ca53d7d185afa74b85a81a753f833bb596d8c85d3d3b7f1d71164c7d35a1adb8",
+      "bytes": 2468089
+    },
+    {
+      "path": "src/cinematics/opening/assets/characters/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/cinematics/opening/assets/props/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/cinematics/opening/assets/ui/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/cinematics/opening/assets/videos/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "src/cinematics/opening/classroomMedia.ts",
+      "sha256": "23663d7269ca3310f159e3e5edbd2f2266c9d4c01116e7813e8389d9bac9952c",
+      "bytes": 1651
+    },
+    {
+      "path": "src/cinematics/opening/styles.css",
+      "sha256": "8a8ab3c9336ae52e07bcc2e10325b8ecbd3f546a93f40ae3cbf71f9f07fe9d29",
+      "bytes": 14964
+    },
+    {
+      "path": "src/cinematics/opening/useSceneAudio.ts",
+      "sha256": "c46dc3497f7975d146fea62601134868700d6abd8d690c582d02a13633b1da74",
+      "bytes": 652
+    },
+    {
+      "path": "src/design-lab/PadletLab.tsx",
+      "sha256": "69d73cbdaee9c94bad11a0c4bdb3986b1819ed9d20ccde6c6b3e5b5fb29dde39",
+      "bytes": 721
+    },
+    {
+      "path": "src/design-lab/padlet.css",
+      "sha256": "6ba2358dc54417b9abc3f8934b806b9c4385a5cd619a18190890157200c2abc7",
+      "bytes": 993
+    },
+    {
+      "path": "src/levels/level1/LevelOne.tsx",
+      "sha256": "5509ad104a8d6e27a4a7c133f4315c78d45fea4961f60cabcc51508dc089afde",
+      "bytes": 21803
+    },
+    {
+      "path": "src/levels/level1/LevelOneExperience.tsx",
+      "sha256": "02cd238b398757f7739113bacbaa7e79bd7ef2c509920050d50b5a6769142b84",
+      "bytes": 860
+    },
+    {
+      "path": "src/levels/level1/MetricResult.tsx",
+      "sha256": "6b822c99945745bb50da18a96c494923567e5c827ad643eb6482d50f5a37751a",
+      "bytes": 4414
+    },
+    {
+      "path": "src/levels/level1/README.md",
+      "sha256": "d9369cd0345e4664dfb2b253d41259019a3166d5af31bc9cc031e1ae2e90d278",
+      "bytes": 1364
+    },
+    {
+      "path": "src/levels/level1/Settlement.tsx",
+      "sha256": "acff7be275b8fd393a930ddaf86c18ea15d4f7c9c37322444b7ca9760952529e",
+      "bytes": 4174
+    },
+    {
+      "path": "src/levels/level1/components/CinematicPlaceholder.tsx",
+      "sha256": "9826d2c05a61c4f73b09e7b1f5d02b0c2dac6d6cc881dcb53f20147bedf5d215",
+      "bytes": 2215
+    },
+    {
+      "path": "src/levels/level1/components/Dialogue.tsx",
+      "sha256": "98a997a39ef76a8e7cda8161f71c33772ef7cd9d803d5185f3bcfefb49055d1e",
+      "bytes": 1572
+    },
+    {
+      "path": "src/levels/level1/components/WorkbenchGuide.tsx",
+      "sha256": "0c556db7f35821c6313243415223f8cbccac2e6b0b4050f42420c74eb70463fe",
+      "bytes": 5297
+    },
+    {
+      "path": "src/levels/level1/metric-result.css",
+      "sha256": "590510da8ca3b2bb4433dd72e834f6bcb75ab2ac0bc0d0e80de503f6b67b3306",
+      "bytes": 3411
+    },
+    {
+      "path": "src/levels/level1/metrics.ts",
+      "sha256": "0808082151c423c77290a9fd8983125ebbcd72f220ca0a4908c359413eb487f6",
+      "bytes": 6616
+    },
+    {
+      "path": "src/levels/level1/settlement.css",
+      "sha256": "d9df831b43807541db87bd98c82e3646fefb8eeb4a6e0af498ca028d751437b3",
+      "bytes": 5852
+    },
+    {
+      "path": "src/levels/level1/state.ts",
+      "sha256": "99a9b0ca8e1cc11cf294b80af29564da3da0ea7c9e5125dd6c9ce635c3375788",
+      "bytes": 389
+    },
+    {
+      "path": "src/levels/level1/styles.css",
+      "sha256": "4ce40f2f18f2b554d76f285f3f848a341e31eaf0bf6e338ff945a64984d7a25d",
+      "bytes": 25421
+    },
+    {
+      "path": "src/levels/level2/ChecklistGrowth.tsx",
+      "sha256": "bdfd5a5cfbbeb2d98b9401859ad3622d8a8b0b8be64fc58b5c3c4dce66ba7f20",
+      "bytes": 1901
+    },
+    {
+      "path": "src/levels/level2/CinematicPlaceholder.tsx",
+      "sha256": "a122c923b4ce5d6f8fbca36b9af59db109a5fb4889cb0f070993017bb4292804",
+      "bytes": 2211
+    },
+    {
+      "path": "src/levels/level2/Conversation.tsx",
+      "sha256": "64c6d351246e891c1e4af4b8895440263326358ac5db98ceda460acf0bcf0c30",
+      "bytes": 714
+    },
+    {
+      "path": "src/levels/level2/GrowthSequence.tsx",
+      "sha256": "e8027015856f7f1cc2131f8e6b2ce243fdb2f0a668c739206666338d6badd305",
+      "bytes": 2208
+    },
+    {
+      "path": "src/levels/level2/LevelTwo.tsx",
+      "sha256": "de4338d05c04bdff30f92df2acd1e04f52d1ed431b803a28be18a14759fe8143",
+      "bytes": 17257
+    },
+    {
+      "path": "src/levels/level2/Perspectives.tsx",
+      "sha256": "a67b0395f55a3f09edc2d1946bca5a400f3317cab01006fb03002fb3d4799de8",
+      "bytes": 2589
+    },
+    {
+      "path": "src/levels/level2/README.md",
+      "sha256": "87b5b3a9f7a21509ead43b256dfb582edd7211cb3b977e06fc1af6b2cd70374f",
+      "bytes": 2996
+    },
+    {
+      "path": "src/levels/level2/data.ts",
+      "sha256": "96a5b300186e7c9cb4183d9cd2be715dd0f2d077c08d4f8a65dc087f57534aee",
+      "bytes": 3726
+    },
+    {
+      "path": "src/levels/level2/dialogue.ts",
+      "sha256": "62b1f9f0c50eee710238cf942d2478b80d30b8d1b3a4924f4ae712f35829605c",
+      "bytes": 3264
+    },
+    {
+      "path": "src/levels/level2/styles.css",
+      "sha256": "38abe05256d75d49ffa3a6c8a4fbf98c17039bf9ee53fdccdc3117157325fb3a",
+      "bytes": 29411
+    },
+    {
+      "path": "src/levels/level3/CinematicPlaceholder.tsx",
+      "sha256": "98543044183ccbdda8e1995fc476bdfd3f5d0e85a9b5ba51253c34cd52b5c78d",
+      "bytes": 3501
+    },
+    {
+      "path": "src/levels/level3/CriteriaStop.tsx",
+      "sha256": "d3dfd90b101b94f0e0e70f0e425cfbf7af42e3c2883dbd429eee47939ece53ca",
+      "bytes": 2837
+    },
+    {
+      "path": "src/levels/level3/EffortDisplay.tsx",
+      "sha256": "ecfdf49e31125c8e4c1b0e5153a566d46574c11a503d6d7be737e044ad85a40f",
+      "bytes": 677
+    },
+    {
+      "path": "src/levels/level3/ExperimentPrompt.tsx",
+      "sha256": "578ecbced8fae233045b2c01d0811e3442b315973a6c9aa6c460dbcdb4a75da5",
+      "bytes": 2572
+    },
+    {
+      "path": "src/levels/level3/LevelThree.tsx",
+      "sha256": "a36e7ab88aa5c007b4d957110b261c71ea536f0fb742196449901424feaa9c1a",
+      "bytes": 19380
+    },
+    {
+      "path": "src/levels/level3/README.md",
+      "sha256": "f47b31fe2a52e1955ee04fbb3e3efa770426c8bebb5e5cf12a1e0cc0c33d58c7",
+      "bytes": 4914
+    },
+    {
+      "path": "src/levels/level3/WeightComparison.tsx",
+      "sha256": "6b8212551609c3a59771f70ed3d587a465974c217d012a8ad69f701e58eed05d",
+      "bytes": 2977
+    },
+    {
+      "path": "src/levels/level3/WeightGuide.tsx",
+      "sha256": "80c1b4ccf0025b912834c73442c643c57af20c8be4b4f2d82ebedb8a0d1cf2a4",
+      "bytes": 9068
+    },
+    {
+      "path": "src/levels/level3/data.ts",
+      "sha256": "121fbaec6b2e6ee63db4d00790e56716cbbee5629216953c0b94fa1372655712",
+      "bytes": 5824
+    },
+    {
+      "path": "src/levels/level3/dialogue.ts",
+      "sha256": "1d3e1efd52fa1a69b0c23653682c15a665835e82a832b25c7af63f95b3126a89",
+      "bytes": 10132
+    },
+    {
+      "path": "src/levels/level3/experiments.ts",
+      "sha256": "f956220d9519f178e6051b906b948f019e4d1223e837a281b007e4710a5fecd3",
+      "bytes": 2608
+    },
+    {
+      "path": "src/levels/level3/guide.css",
+      "sha256": "e948a2645f33cc262af5fb6db86a8fdbf843fa66b5c8b20e60ccc12d325054da",
+      "bytes": 2821
+    },
+    {
+      "path": "src/levels/level3/styles.css",
+      "sha256": "754d889b66b3281382d9537c4fedc60c7efd719be7b3903a597f234f3f0782aa",
+      "bytes": 29925
+    },
+    {
+      "path": "src/levels/level3/weights.ts",
+      "sha256": "5fdec87476513b3945c870d98b532b445ce8410606f7e05e1964afcd40b793ab",
+      "bytes": 4527
+    },
+    {
+      "path": "src/main.tsx",
+      "sha256": "356f319a3e90e67bd98dd555cd3c5b8a87706655df8ccb0e5568e2ffbbcae2ea",
+      "bytes": 236
+    },
+    {
+      "path": "src/previews/level1-settlement/entry.tsx",
+      "sha256": "d102a553bb1a8113ffd68a01c7da5381e6f986bec9b9c0f12dad6da58ec07699",
+      "bytes": 520
+    },
+    {
+      "path": "src/previews/level1-settlement/preview.css",
+      "sha256": "67a3c9cb93bdb577462fc952fb1fe48aef3b2d019aba7da62e4e0f8509c2c5e9",
+      "bytes": 391
+    },
+    {
+      "path": "src/shared/README.md",
+      "sha256": "0ee206bb34acefa4c938096605b7d20f9794c7c3e2f22615651d4c476331e444",
+      "bytes": 2209
+    },
+    {
+      "path": "src/shared/components/ChapterTransition.tsx",
+      "sha256": "c8c2d1d804c015fa727e13e30d1747e1bea301d78b0853d52ff0f3112ac2d27b",
+      "bytes": 6709
+    },
+    {
+      "path": "src/shared/components/CharacterPortrait.tsx",
+      "sha256": "3b651ef01464833e8a89b1edcdf983c6a294c6b683e4f04cdb42ce82921e2063",
+      "bytes": 990
+    },
+    {
+      "path": "src/shared/components/Conversation.tsx",
+      "sha256": "1ef7886e547da52ca6d95aa6912dad1c6778a5308b4141dff59235af58a9633b",
+      "bytes": 4688
+    },
+    {
+      "path": "src/shared/components/Icon.tsx",
+      "sha256": "538728bff5f76c60f5adb209cf5db378c1feaac20cb4eec09738dc72be991246",
+      "bytes": 2160
+    },
+    {
+      "path": "src/shared/components/LearningRisk.tsx",
+      "sha256": "c2bc4f8a7ee021480249956150e6fe53c4c1356e5ccab3f48e68ef9a48dce354",
+      "bytes": 400
+    },
+    {
+      "path": "src/shared/components/ManagementSatisfaction.tsx",
+      "sha256": "3da7b3ee93b530cd9d4d16943793550bd1f3338f0880d795cf3670bbe4189db3",
+      "bytes": 4633
+    },
+    {
+      "path": "src/shared/components/MetricSelection.tsx",
+      "sha256": "b6cab212baf1f20f2915fbb3491284fbeec47661b766a13b8e1b79506ac8f596",
+      "bytes": 5420
+    },
+    {
+      "path": "src/shared/components/ObservationContent.tsx",
+      "sha256": "3e95baa5cd2d2e3ac2518cbd34da8ded871ea56dd122347cf9cd92e9d1849ffc",
+      "bytes": 1295
+    },
+    {
+      "path": "src/shared/components/TaskEffort.tsx",
+      "sha256": "c93263d1d16ecf36e14f3d2d474676c76f61363ced8617f56d385be8572e33ed",
+      "bytes": 3928
+    },
+    {
+      "path": "src/shared/data/cinematicPalette.d.ts",
+      "sha256": "3e080badfe292446516acbba716dec20e58a371df12a30f7ba406b32df010b9e",
+      "bytes": 110
+    },
+    {
+      "path": "src/shared/data/cinematicPalette.js",
+      "sha256": "210778842d964439d3a745f436650fc198d7aa83448ae9337792e9ee7f4a5565",
+      "bytes": 155
+    },
+    {
+      "path": "src/shared/data/metrics.ts",
+      "sha256": "b55070b4043c3385ef0e0258d59cfca1b48bb2ac44ad0ecdc956628de8185694",
+      "bytes": 1131
+    },
+    {
+      "path": "src/shared/data/professorLabel.d.ts",
+      "sha256": "867a801f53f7ca541eb50548c89bc63b57793be3d44084199e640a99f5012063",
+      "bytes": 62
+    },
+    {
+      "path": "src/shared/data/professorLabel.js",
+      "sha256": "a74364a99a33dca31baf8e60e4bb63ab4e57b2e2c39d837e3236db1aebf5b04c",
+      "bytes": 456
+    },
+    {
+      "path": "src/shared/hooks/useFeedback.ts",
+      "sha256": "cedee05fad2438bb0ce035c26c3bda2676d3d07ffb03badea16d98721f3f27b4",
+      "bytes": 590
+    },
+    {
+      "path": "src/shared/hooks/useVisibleDelay.ts",
+      "sha256": "91d41d6ae6baada45ecca2050a5a9872e27173f20fc22219fe6290e21d08da16",
+      "bytes": 1628
+    },
+    {
+      "path": "src/shared/styles/base.css",
+      "sha256": "878838481b41d511e045c94bfba6e72b26ded573b2b0d48ae6eb9e60627bf462",
+      "bytes": 4132
+    },
+    {
+      "path": "src/shared/styles/chapter-transition.css",
+      "sha256": "1d15d1d8845deeff4fa0fe9d9d566216a6d293c77c3b2178b739571fea14d3ac",
+      "bytes": 10421
+    },
+    {
+      "path": "src/shared/styles/conversation.css",
+      "sha256": "69e7dacb29415315ff58796a9f8f6b11a91a4533546aa5a5c46434753be9795c",
+      "bytes": 2980
+    },
+    {
+      "path": "src/shared/styles/first-handoff.css",
+      "sha256": "b79b767957b5ce20304efbf632ea2568e3ce7ea8772ba70bf9012edd5544b449",
+      "bytes": 786
+    },
+    {
+      "path": "src/shared/styles/learning-risk.css",
+      "sha256": "ddfb4d81cedafdcac7c543585f6e5a40b5911a58448deda9242b67ee363ea868",
+      "bytes": 583
+    },
+    {
+      "path": "src/shared/styles/management-satisfaction.css",
+      "sha256": "ab941253dbf52eecba153ecc8ca41a0a443bc3ab2b34d66dc78c1aabbd378eb6",
+      "bytes": 1984
+    },
+    {
+      "path": "src/shared/styles/metric-selection.css",
+      "sha256": "85686a81d46eaac63eab1552ec875ae57fc56e8192d978d9828e1eb3876c423a",
+      "bytes": 7072
+    },
+    {
+      "path": "src/shared/styles/observation.css",
+      "sha256": "b029be5a221d6a4a18369cec8a7acca7b184562b63bf6fee1b903aee6c592fe7",
+      "bytes": 2403
+    },
+    {
+      "path": "src/shared/styles/portraits.css",
+      "sha256": "2e3f442d2ffe81d218fb33c339bde326f03dbfa4488ef2358afab05cdf6eb10e",
+      "bytes": 153
+    },
+    {
+      "path": "src/shared/styles/task-effort.css",
+      "sha256": "6527a76861e40ce9e77deb4e896683269789d5c0c5c76c85022d8da68ce1fa97",
+      "bytes": 733
+    },
+    {
+      "path": "src/shared/utils/cinematicRunId.ts",
+      "sha256": "2ef6c9fbd88d92e15355b5413f4e403e98b005c29d8a6923d8b06a5db6e8d07f",
+      "bytes": 420
+    },
+    {
+      "path": "src/shared/utils/conversationTiming.ts",
+      "sha256": "e3f8f77a4e2694a337d4005a9eb4967ca44f2847fee9b94efee839eb639e035d",
+      "bytes": 414
+    },
+    {
+      "path": "src/shared/utils/playerName.ts",
+      "sha256": "321da8bc805a5f94fb6e83327cfdb3eb19fbfdcbcde20f5e82b5d70fcd8e9efe",
+      "bytes": 300
+    },
+    {
+      "path": "src/shared/utils/readingTime.ts",
+      "sha256": "5bbdfef09b3906501ebdbc0e115b9397d9eae428e3ddc01e11a5d4cac437b459",
+      "bytes": 292
+    },
+    {
+      "path": "src/shared/utils/teacherSpeech.d.ts",
+      "sha256": "3bb073cfb18cbe982d4af147614953401c7de2566510cbc6147bc3e5abdbccbb",
+      "bytes": 53
+    },
+    {
+      "path": "src/shared/utils/teacherSpeech.js",
+      "sha256": "0f381042322ae0d2218f11ace5edd2c68545d879e4f91a995f6ead3eb4bebc8a",
+      "bytes": 315
+    },
+    {
+      "path": "tests/dialogue_emojis.mjs",
+      "sha256": "2b43d31e17e89fbe687b6062703a04dc4a695d34b85f09d3962dc431d99c3c49",
+      "bytes": 1152
+    },
+    {
+      "path": "tests/dialogue_narrative.mjs",
+      "sha256": "14b5446fe54a327a3878f674a2de6247f66906a97b4bc4b4f2af9a17b4b26c81",
+      "bytes": 11099
+    },
+    {
+      "path": "tests/experiment_rules.mjs",
+      "sha256": "bedac176e73d054080950850228fec1836c92ac80bfbd16312845c49a3eced92",
+      "bytes": 6644
+    },
+    {
+      "path": "tests/learning_contracts.mjs",
+      "sha256": "226ed2337b88584198cb7113a47f27905a04d1fff8cb4fb7c6353372ff0f13fb",
+      "bytes": 2184
+    },
+    {
+      "path": "tests/level1_settlement_pacing.mjs",
+      "sha256": "d19dfad0f4365d1f8e33c505a525d210fe7a70e0bdda5d7fc5be274294ee2b8f",
+      "bytes": 2153
+    },
+    {
+      "path": "tests/level2_animation_pacing.mjs",
+      "sha256": "b6c306f76f16566b40cc493300f4d3ec11fca64233297a7179e7288694825c03",
+      "bytes": 5373
+    },
+    {
+      "path": "tests/level2_revisions.mjs",
+      "sha256": "1ff531dc2929af925d8fbbb63f20c29c8407a35a712660ed505de105496938f8",
+      "bytes": 4075
+    },
+    {
+      "path": "tests/level3_animation_mapping.mjs",
+      "sha256": "715e3cc7b15f9a7132cba49f008244c43424aca2c0fcc24723de69cf878196cf",
+      "bytes": 3483
+    },
+    {
+      "path": "tests/level3_integration.py",
+      "sha256": "1be107d48190749c9736ffba1b9fcf211157b0f0353c6a6d9eeb36dc3756a0a2",
+      "bytes": 15113
+    },
+    {
+      "path": "tests/level3_rules.mjs",
+      "sha256": "12c1259f2899dc56c33b6b530ed0d9afe8626fccf81311108984fdbbce474f32",
+      "bytes": 9583
+    },
+    {
+      "path": "tests/task_clarity.mjs",
+      "sha256": "2aabcba36fd9b034777d7a19ee7ca390beab5e246144ecf3d4de29ee2af503b1",
+      "bytes": 5892
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "52724f963b1dc9aff8479a757911e832da022120adcec519159cd6dce2fffe3e",
+      "bytes": 391
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "8a36375a04d5b16b9929a0480e6acaea1b6e2263c9f35d1edfd30ab07020dd87",
+      "bytes": 578
+    },
+    {
+      "path": "scripts/metric100-preview/pacing.mjs",
+      "sha256": "51b8aaf0cec4b5b5c9a9b88e2a319569f60d9d9dc5c3fe5b314b2ad4b081fe0b",
+      "bytes": 1729
+    },
+    {
+      "path": "scripts/level2-web-preview.mjs",
+      "sha256": "4381c9ebca4c2abc8ea334da65ed40ce108219bb9ac3da1f71ff6cb4ca5807e4",
+      "bytes": 1092
+    },
+    {
+      "path": "tests/release.py",
+      "sha256": "0650584692e83dc841c415d8ae82c55183593a96f931fe092742e251d675da64",
+      "bytes": 24225
+    }
+  ],
+  "excluded": [
+    ".gitignore",
+    "AGENTS.md",
+    "FINAL-REVIEW.zh-CN.md",
+    "README.md",
+    "STAGE0_PROVENANCE.md",
+    "START-FINAL-REVIEW.command",
+    "design-lab/.gitignore",
+    "design-lab/AGENTS.md",
+    "design-lab/README-Windows-standalone.txt",
+    "design-lab/README-Windows.txt",
+    "design-lab/README.md",
+    "design-lab/START-HERE-standalone.html",
+    "design-lab/START-HERE.html",
+    "design-lab/VALIDATION.json",
+    "design-lab/docs/00-host.png",
+    "design-lab/docs/01-waiting.png",
+    "design-lab/docs/02-writing.png",
+    "design-lab/docs/03-voting.png",
+    "design-lab/docs/04-ranking.png",
+    "design-lab/docs/05-question.png",
+    "design-lab/docs/06-closing.png",
+    "design-lab/docs/07-class-of-21.png",
+    "design-lab/go.mod",
+    "design-lab/index.html",
+    "design-lab/main.go",
+    "design-lab/package.py",
+    "design-lab/public/goodhart.png",
+    "design-lab/session.go",
+    "design-lab/session_test.go",
+    "design-lab/src/App.tsx",
+    "design-lab/src/Icons.tsx",
+    "design-lab/src/LabAudio.tsx",
+    "design-lab/src/main.tsx",
+    "design-lab/src/styles.css",
+    "design-lab/src/types.ts",
+    "design-lab/src/useClassroom.ts",
+    "design-lab/tests/browser.py",
+    "design-lab/tsconfig.json",
+    "design-lab/vite.config.ts",
+    "docs/.nojekyll",
+    "docs/ANIMATION_INTEGRATION.md",
+    "docs/AUDIO_DESIGN.md",
+    "docs/BGM_RELEASE.md",
+    "docs/CHAPTER_TRANSITIONS.md",
+    "docs/CLASSROOM_LAN_FIX.md",
+    "docs/CLASSROOM_LAN_VALIDATION.json",
+    "docs/DEVELOPMENT_WORKFLOW.md",
+    "docs/DIALOGUE_REVIEW.md",
+    "docs/DOWNLOAD_BUNDLE_VALIDATION-v22.json",
+    "docs/DOWNLOAD_BUNDLE_VALIDATION.json",
+    "docs/EFFORT_RULES.md",
+    "docs/ENDING_ANIMATION_PREVIEW.md",
+    "docs/ENDING_DESIGN_LAB_COPY.md",
+    "docs/INT01_SOURCE.json",
+    "docs/INT02_SOURCE.json",
+    "docs/INT03_SOURCE.json",
+    "docs/INT04_SOURCE.json",
+    "docs/INT05_SOURCE.json",
+    "docs/LEARNING_OPTIMIZATIONS.md",
+    "docs/LEVEL1_HANDOFF.md",
+    "docs/LEVEL1_SETTLEMENT_PREVIEW.md",
+    "docs/LEVEL2_ANIMATION_PREVIEW.md",
+    "docs/LEVEL2_FRAMING.md",
+    "docs/LEVEL2_HANDOFF.md",
+    "docs/LEVEL2_NARRATIVE_AUDIT.md",
+    "docs/LEVEL2_VALIDATION-v2.json",
+    "docs/LEVEL2_VALIDATION-v3.json",
+    "docs/LEVEL2_VALIDATION-v4.json",
+    "docs/LEVEL2_VALIDATION-v5.json",
+    "docs/LEVEL2_VALIDATION-v6.json",
+    "docs/LEVEL2_VALIDATION-v7.json",
+    "docs/LEVEL2_VALIDATION.json",
+    "docs/LEVEL3A_ANIMATION.md",
+    "docs/LEVEL3_FEEDBACK-v19.md",
+    "docs/LEVEL3_FOCUS.md",
+    "docs/LEVEL3_HANDOFF.md",
+    "docs/LEVEL3_NARRATION.docx",
+    "docs/LEVEL3_NARRATION.md",
+    "docs/LEVEL3_PLAYER_PATH.md",
+    "docs/LEVEL3_VALIDATION-v1.json",
+    "docs/LEVEL3_VALIDATION-v10.json",
+    "docs/LEVEL3_VALIDATION-v11.json",
+    "docs/LEVEL3_VALIDATION-v12.json",
+    "docs/LEVEL3_VALIDATION-v13.json",
+    "docs/LEVEL3_VALIDATION-v14.json",
+    "docs/LEVEL3_VALIDATION-v15.json",
+    "docs/LEVEL3_VALIDATION-v16.json",
+    "docs/LEVEL3_VALIDATION-v17.json",
+    "docs/LEVEL3_VALIDATION-v18.json",
+    "docs/LEVEL3_VALIDATION-v19.json",
+    "docs/LEVEL3_VALIDATION-v2.json",
+    "docs/LEVEL3_VALIDATION-v20.json",
+    "docs/LEVEL3_VALIDATION-v21.json",
+    "docs/LEVEL3_VALIDATION-v3.json",
+    "docs/LEVEL3_VALIDATION-v4.json",
+    "docs/LEVEL3_VALIDATION-v5.json",
+    "docs/LEVEL3_VALIDATION-v6.json",
+    "docs/LEVEL3_VALIDATION-v7.json",
+    "docs/LEVEL3_VALIDATION-v8.json",
+    "docs/LEVEL3_VALIDATION-v9.json",
+    "docs/MANAGEMENT_SATISFACTION.md",
+    "docs/METRIC100_ANIMATION_PREVIEW.md",
+    "docs/METRIC100_PREVIEW_VALIDATION.json",
+    "docs/NEXT_AI_HANDOFF.zh-CN.md",
+    "docs/OPENING_HANDOFF.md",
+    "docs/PLAYER_EXPERIMENTS.md",
+    "docs/PREVIEW_VALIDATION.json",
+    "docs/PROJECT_DETAILS.md",
+    "docs/README.md",
+    "docs/REPOSITORY_GUIDE.md",
+    "docs/SCAFFOLDING.md",
+    "docs/SOURCE_LAYOUT_VALIDATION.json",
+    "docs/TASK_CLARITY.md",
+    "docs/TYPOGRAPHY.md",
+    "docs/UNASSIGNED_WEIGHTS-v21.md",
+    "docs/VISUAL_PLAY.md",
+    "docs/animation-preview/Level2-animation.html",
+    "docs/animation-preview/START-HERE.html",
+    "docs/animation-preview/START-HERE.txt",
+    "docs/animation-preview/index.html",
+    "docs/animation-preview/manifest.json",
+    "docs/index.html",
+    "play/CHAPTER_AUTO_ENTRY_REVIEW.json",
+    "play/CLASSROOM_PREVIEW.json",
+    "play/COPY_REVIEW.json",
+    "play/DELIVERY_GUIDE.zh-CN.md",
+    "play/DESIGN_LAB_LOCAL.json",
+    "play/DESIGN_LAB_LOCAL_VALIDATION.json",
+    "play/ENDING_ANIMATION_PREVIEW.json",
+    "play/LATEST.json",
+    "play/LEVEL1_ANIMATION_PREVIEW.json",
+    "play/LEVEL1_ASSESSMENT_REVIEW.json",
+    "play/LEVEL1_ASSESSMENT_VIDEO_REVIEW.json",
+    "play/LEVEL1_HANDOFF_REVIEW.json",
+    "play/LEVEL1_ICON_RESULTS_REVIEW.json",
+    "play/LEVEL1_METRIC_DIALOGUE_REVIEW.json",
+    "play/LEVEL1_SETTLEMENT_PREVIEW.json",
+    "play/LEVEL2_100METRICS_PREVIEW.json",
+    "play/LEVEL2_ANIMATION_PREVIEW.json",
+    "play/LEVEL2_OBSERVATION_COPY_REVIEW.json",
+    "play/LEVEL3A_ANIMATION_PREVIEW.json",
+    "play/Level1-assessment-preview.png",
+    "play/Level1-guide-v3.png",
+    "play/Level1-guide-v4.png",
+    "play/Level1-handoff-preview.png",
+    "play/Level1-icon-results-overview.png",
+    "play/Level1-icon-results-preview.png",
+    "play/Level1-metric-dialogue-preview.png",
+    "play/Level1-observation-v5.png",
+    "play/Level1-prediction-v6.png",
+    "play/Level1-preview-v2.png",
+    "play/Level1-preview-v3.png",
+    "play/Level1-preview-v4.png",
+    "play/Level1-preview-v5.png",
+    "play/Level1-preview-v6.png",
+    "play/Level1-preview-v7.png",
+    "play/Level1-result-copy-preview.png",
+    "play/Level2-observation-copy-preview.png",
+    "play/OPENING_PREVIEW.json",
+    "play/Opening-title-copy-preview.png",
+    "play/PADLET_INTEGRATION.json",
+    "play/README.md",
+    "play/VALIDATION-v2.json",
+    "play/VALIDATION-v3.json",
+    "play/VALIDATION-v4.json",
+    "play/VALIDATION-v5.json",
+    "play/VALIDATION-v6.json",
+    "play/VALIDATION-v7.json",
+    "play/wallpapers/Game-wallpaper-16x10-soft-shade.png",
+    "play/wallpapers/Game-wallpaper-16x10.png",
+    "\"revision-assets/references/alex/ALEX-PROD-001 \\342\\200\\224 Seated Alex Neutral.png\"",
+    "scripts/chapter-review/README.md",
+    "scripts/chapter-review/capture.py",
+    "scripts/chapter-review/entry.tsx",
+    "scripts/chapter-review/index.html",
+    "scripts/chapter-review/vite.config.mjs",
+    "scripts/copy-review/Composition.jsx",
+    "scripts/copy-review/Memories.jsx",
+    "scripts/copy-review/README.md",
+    "scripts/copy-review/capture.py",
+    "scripts/copy-review/ending.config.mjs",
+    "scripts/copy-review/film.css",
+    "scripts/copy-review/opening-entry.tsx",
+    "scripts/copy-review/opening.config.mjs",
+    "scripts/copy-review/opening.html",
+    "scripts/copy-review/preview-entry.jsx",
+    "scripts/copy-review/timeline.mjs",
+    "\"scripts/ending-source/assets/characters/alex-rig/production/expressions/ALEX-PROD-003 \\342\\200\\224 Pleased.png\"",
+    "\"scripts/ending-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-001 \\342\\200\\224 Pre-class Preparation.png\"",
+    "\"scripts/ending-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-002 \\342\\200\\224 In-class Participation.png\"",
+    "\"scripts/ending-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-003 \\342\\200\\224 On-task Focus.png\"",
+    "\"scripts/ending-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-004 \\342\\200\\224 Discussion Quality.png\"",
+    "\"scripts/ending-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-005 \\342\\200\\224 Learning Reflection.png\"",
+    "\"scripts/ending-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-006 \\342\\200\\224 Online Peer Response.png\"",
+    "scripts/level1-animation-preview.config.mjs",
+    "scripts/level1-assessment-review/README.md",
+    "scripts/level1-assessment-review/capture.py",
+    "scripts/level1-assessment-review/entry.tsx",
+    "scripts/level1-assessment-review/index.html",
+    "scripts/level1-assessment-review/record.py",
+    "scripts/level1-assessment-review/review.css",
+    "scripts/level1-assessment-review/vite.config.mjs",
+    "scripts/level1-dialogue-review/README.md",
+    "scripts/level1-dialogue-review/capture.py",
+    "scripts/level1-dialogue-review/entry.tsx",
+    "scripts/level1-dialogue-review/index.html",
+    "scripts/level1-dialogue-review/vite.config.mjs",
+    "scripts/level1-handoff-review/README.md",
+    "scripts/level1-handoff-review/entry.tsx",
+    "scripts/level1-handoff-review/index.html",
+    "scripts/level1-handoff-review/record.py",
+    "scripts/level1-handoff-review/review.css",
+    "scripts/level1-handoff-review/vite.config.mjs",
+    "scripts/level1-icon-review/README.md",
+    "scripts/level1-icon-review/entry.tsx",
+    "scripts/level1-icon-review/index.html",
+    "scripts/level1-icon-review/record.py",
+    "scripts/level1-icon-review/review.css",
+    "scripts/level1-icon-review/vite.config.mjs",
+    "scripts/level1-result-copy-review/capture.py",
+    "scripts/level1-result-copy-review/entry.tsx",
+    "scripts/level1-result-copy-review/index.html",
+    "scripts/level1-result-copy-review/vite.config.mjs",
+    "\"scripts/level1-source/assets/backgrounds/BG-002 \\342\\200\\224 Classroom First-Person Background.png\"",
+    "\"scripts/level1-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-001 \\342\\200\\224 Pre-class Preparation.png\"",
+    "\"scripts/level1-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-002 \\342\\200\\224 In-class Participation.png\"",
+    "\"scripts/level1-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-003 \\342\\200\\224 On-task Focus.png\"",
+    "\"scripts/level1-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-004 \\342\\200\\224 Discussion Quality.png\"",
+    "\"scripts/level1-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-005 \\342\\200\\224 Learning Reflection.png\"",
+    "\"scripts/level1-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-006 \\342\\200\\224 Online Peer Response.png\"",
+    "scripts/level2-animation-preview.config.mjs",
+    "scripts/level2-review-entry.jsx",
+    "scripts/level2-review.css",
+    "\"scripts/level2-source/assets/characters/alex-rig/production/base/ALEX-PROD-001 \\342\\200\\224 Seated Alex Neutral.png\"",
+    "\"scripts/level2-source/assets/characters/alex-rig/production/expressions/ALEX-PROD-002 \\342\\200\\224 Blink.png\"",
+    "\"scripts/level2-source/assets/characters/alex-rig/production/expressions/ALEX-PROD-003 \\342\\200\\224 Pleased.png\"",
+    "\"scripts/level2-source/assets/characters/alex-rig/production/expressions/ALEX-PROD-004 \\342\\200\\224 Uncertain.png\"",
+    "\"scripts/level2-source/docs/visual-style/references/Level 2 - More Metrics Consequences/    REF-L2-001 \\342\\200\\224 Visible-heavy Classroom.png\"",
+    "\"scripts/level2-source/docs/visual-style/references/Level 2 - More Metrics Consequences/    REF-L2-002 \\342\\200\\224 Quality-heavy Classroom.png\"",
+    "\"scripts/level2-source/docs/visual-style/references/Level 2 - More Metrics Consequences/REF-L2-003 \\342\\200\\224 Mixed : Broad Classroom.png\"",
+    "scripts/level3-animation-preview.config.mjs",
+    "scripts/level3-review-entry.jsx",
+    "\"scripts/level3-source/assets/backgrounds/BG-002 \\342\\200\\224 Classroom First-Person Background.png\"",
+    "\"scripts/level3-source/assets/props/PROP-L1-001 \\342\\200\\224 Checklist : Reading Sheet.png\"",
+    "\"scripts/level3-source/assets/props/PROP-L1-003 \\342\\200\\224 Discussion Sentence-Stem Card.png\"",
+    "\"scripts/level3-source/docs/visual-style/references/level3-metric-adaptations/REF-L3A-S10 \\342\\200\\224 High On-Task Focus.png\"",
+    "scripts/metric100-preview/build.mjs",
+    "scripts/metric100-preview/config.mjs",
+    "scripts/metric100-preview/entry.jsx",
+    "scripts/metric100-preview/package.py",
+    "scripts/metric100-preview/style.css",
+    "scripts/observation-copy-review/README.md",
+    "scripts/observation-copy-review/capture.py",
+    "scripts/observation-copy-review/entry.tsx",
+    "scripts/observation-copy-review/index.html",
+    "scripts/observation-copy-review/vite.config.mjs",
+    "scripts/package_bgm_web.py",
+    "scripts/package_level2_animation_preview.py",
+    "scripts/package_level3_animation_preview.py",
+    "scripts/package_playtest.py",
+    "scripts/render_score.py",
+    "src/audio/assets/gymnopedie-no1.mp3",
+    "\"src/cinematics/opening/assets/backgrounds/BG-002 \\342\\200\\224 Classroom First-Person Background.png\"",
+    "\"src/cinematics/opening/assets/characters/CHAR-001 \\342\\200\\224 Sleeping Student Idle.png\"",
+    "\"src/cinematics/opening/assets/characters/CHAR-003 \\342\\200\\224 Phone Student Idle.png\"",
+    "\"src/cinematics/opening/assets/characters/CHAR-005 \\342\\200\\224 Unprepared Student Idle.png\"",
+    "tests/audio_classroom.py",
+    "tests/audio_effects_only.py",
+    "tests/bgm_browser.py",
+    "tests/bgm_iframe.py",
+    "tests/bgm_layout.py",
+    "tests/chapter_transitions.py",
+    "tests/cinematic_dissolves.py",
+    "tests/classroom_lan.py",
+    "tests/dialogue_browser.py",
+    "tests/effort_rules.py",
+    "tests/ending_integration_release.py",
+    "tests/ending_preview.py",
+    "tests/feedback.py",
+    "tests/first_handoff.py",
+    "tests/guide.py",
+    "tests/interface_feedback.py",
+    "tests/learning_optimizations.py",
+    "tests/level1_animation_preview.py",
+    "tests/level1_settlement_preview.py",
+    "tests/level2.py",
+    "tests/level2_animation_preview.py",
+    "tests/level2_animation_results.py",
+    "tests/level2_framing.py",
+    "tests/level2_integration.py",
+    "tests/level3.py",
+    "tests/level3_animation_packaged.py",
+    "tests/level3_animation_preview.py",
+    "tests/level3_feedback.py",
+    "tests/level3_hint_alignment.mjs",
+    "tests/management_satisfaction.py",
+    "tests/metric100_game_integration.py",
+    "tests/metric100_preview.py",
+    "tests/metric_result_choices.py",
+    "tests/offline_playtest.py",
+    "tests/opening_integration.py",
+    "tests/opening_preview.py",
+    "tests/padlet_handoff.py",
+    "tests/player_dialogue.mjs",
+    "tests/player_experiments.py",
+    "tests/player_identity.py",
+    "tests/professor_labels_browser.py",
+    "tests/smoke.py",
+    "tests/stage1a_labels.mjs",
+    "tests/stage1a_level1.py",
+    "tests/stage1a_opening.py",
+    "tests/stage1a_scope.py",
+    "tests/stage1b_browser.py",
+    "tests/stage1b_data.mjs",
+    "tests/stage1b_scope.py",
+    "tests/stage1c_browser.py",
+    "tests/stage1c_contracts.mjs",
+    "tests/stage1c_scope.py",
+    "tests/stage1d_browser.py",
+    "tests/stage1d_contracts.mjs",
+    "tests/stage1d_scope.py",
+    "tests/task_clarity.py",
+    "tests/typography.py",
+    "tests/visual_play.py"
+  ],
+  "credential_scan_findings": [],
+  "note": "Pattern-based scan; no guarantee that all secrets or asset rights can be identified.",
+  "verification": {
+    "copied_original_files_byte_identical": true,
+    "dependency_install": "npm ci --ignore-scripts --no-audit --no-fund passed",
+    "type_check": "passed",
+    "full_build": "Not run: intentionally excluded soundtrack required by original import",
+    "upstream_worktree": "clean, HEAD and origin unchanged"
+  }
+}

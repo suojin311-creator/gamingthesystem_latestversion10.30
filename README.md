@@ -1,6 +1,8 @@
 # Gaming the System
 
-这是你独立维护的游戏源码仓库。默认入口包含开头、Level 1–3、ending 和 Padlet Design Lab。
+**这个仓库主要用于保存和维护动画。** 附带的游戏代码仅作为动画接入参考，不作为游戏操作部分或 Design Lab 的最新版。
+
+以后修改游戏操作界面、玩法或 Design Lab，请回到第一个仓库：[gamingthesystem_game](https://github.com/suojin311-creator/gamingthesystem_game)。本仓库保存开头、Level 1–3 和 ending 动画及所需素材；不要用这里的游戏快照覆盖第一个仓库。
 
 ## 启动
 

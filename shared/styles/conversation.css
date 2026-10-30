@@ -1,0 +1,28 @@
+/* Low-specificity defaults let each level own the conversation's layout. */
+:where(.conversation) { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; min-height: 80px; }
+:where(.conversation.two-voices) { min-height: 140px; }
+:where(.conversation .dialogue-character) { display: flex; align-items: center; gap: 11px; max-width: 90%; min-height: 55px; animation: conversation-message-in .22s ease-out; }
+:where(.conversation .avatar) { width: 32px; height: 32px; flex-shrink: 0; display: grid; place-items: center; border: 1px solid #c4b39b; border-radius: 50%; font: italic 21px var(--serif); background: #e3d3bd; color: #735a3e; }
+:where(.conversation .speech-bubble) { padding: 9px 14px; position: relative; background: #fffaf0; border: 1px solid #ddd2bf; border-radius: 0 10px 10px 10px; min-width: 85px; max-width: 550px; }
+:where(.conversation .speech-bubble)::before { content: ''; position: absolute; left: -6px; top: 12px; width: 10px; height: 10px; background: inherit; border-left: 1px solid #ddd2bf; border-bottom: 1px solid #ddd2bf; transform: rotate(45deg); }
+:where(.conversation .speaker-name) { display: block; font-size: 9px; font-weight: 700; color: #996747; margin-bottom: 4px; overflow-wrap: anywhere; }
+:where(.conversation .speech-bubble p) { font: var(--dialogue-size)/1.4 var(--serif); color: #635a46; }
+:where(.conversation .alex-character) { align-self: flex-end; flex-direction: row-reverse; }
+:where(.conversation .alex-avatar) { background: #d7ddca; color: #5d6a4c; border-color: #b5bca5; }
+:where(.conversation .alex-bubble) { background: #e9eddf; border-color: #cbd0bd; border-radius: 10px 0 10px 10px; }
+:where(.conversation .alex-bubble .speaker-name) { color: #66724f; }
+:where(.conversation .alex-bubble)::before { left: auto; right: -6px; border: 0; border-right: 1px solid #cbd0bd; border-top: 1px solid #cbd0bd; }
+:where(.conversation .typing-indicator) { display: flex; align-items: center; gap: 4px; height: 21px; padding: 3px 1px; }
+:where(.conversation .typing-indicator i) { width: 5px; height: 5px; border-radius: 50%; background: #9a9988; animation: conversation-typing 1s infinite; }
+:where(.conversation .typing-indicator i:nth-child(2)) { animation-delay: .14s; }
+:where(.conversation .typing-indicator i:nth-child(3)) { animation-delay: .28s; }
+.conversation .dialogue-character.message-continuation { min-height: 0; margin-top: -6px; }
+.conversation .message-continuation .avatar { visibility: hidden; }
+@keyframes conversation-typing { 0%,60%,100% { opacity: .4; transform: translateY(0); } 30% { opacity: 1; transform: translateY(-3px); } }
+@media (max-width: 520px) {
+  :where(.conversation.two-voices) { min-height: 190px; }
+  :where(.conversation .dialogue-character) { gap: 10px; }
+  :where(.conversation .avatar) { width: 28px; height: 28px; font-size: 19px; }
+}
+
+@keyframes conversation-message-in { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }

@@ -1,0 +1,9 @@
+.student-behaviour { font: var(--student-behaviour-size)/1.25 var(--serif); color: #8a502b; margin-top: 17px; overflow-wrap: anywhere; }
+.learning-risk { display: flex; align-items: center; gap: 6px; color: #9a7347; margin-top: 15px; }
+.learning-risk > .icon { width: 15px; height: 15px; color: #ad742f; }
+.learning-risk strong { font-size: 11px; line-height: 1.4; font-weight: 400; }
+@media (max-width: 520px) {
+  .student-behaviour { font-size: var(--student-behaviour-size); }
+  .learning-risk strong { font-size: 10px; }
+  .learning-risk > .icon { width: 13px; height: 13px; }
+}

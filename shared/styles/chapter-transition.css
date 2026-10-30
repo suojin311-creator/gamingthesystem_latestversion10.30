@@ -1,0 +1,98 @@
+/* A quiet chapter break on the same desk. No completion badge or victory palette. */
+.chapter-transition { --chapter-play-state: paused; position: relative; isolation: isolate; padding: 22px 42px 25px; background: radial-gradient(ellipse at 50% 46%, #e8dfcd66, transparent 65%), var(--paper); }
+.chapter-transition .chapter-recap { display: flex; align-items: center; gap: 12px 22px; min-height: 38px; padding-bottom: 18px; border-bottom: 1px solid #e2dccc; font-size: 12px; line-height: 1.4; }
+.chapter-transition .chapter-last-level { font-size: 10px; letter-spacing: .14em; color: #8c8878; white-space: nowrap; }
+.chapter-transition .chapter-report, .chapter-transition .chapter-consequence { display: inline-flex; align-items: center; gap: 7px; }
+.chapter-transition .chapter-report { color: #647d54; }
+.chapter-transition .chapter-consequence { color: #99683d; margin-left: auto; }
+.chapter-transition .chapter-recap .icon { width: 17px; height: 17px; }
+.chapter-transition .chapter-heading { text-align: center; min-height: 128px; padding: 26px 0 17px; visibility: hidden; }
+.chapter-transition .chapter-label { display: block; color: #ad5840; font-size: 12px; font-weight: 700; letter-spacing: .26em; margin-bottom: 9px; }
+.chapter-transition .chapter-label b { font: 30px/1 var(--serif); letter-spacing: -.04em; vertical-align: -2px; margin-left: 5px; }
+.chapter-transition .chapter-heading h1 { font: 56px/1.07 var(--serif); letter-spacing: -.045em; }
+.chapter-transition .chapter-heading h1:focus { outline: none; }
+.chapter-transition .chapter-rule { display: block; width: 38px; height: 2px; background: #ad5840; margin: 19px auto 0; }
+.chapter-transition .chapter-stage { position: relative; min-height: 210px; display: grid; place-items: center; perspective: 900px; }
+.chapter-transition .chapter-outgoing { position: absolute; width: 210px; min-height: 142px; padding: 23px; display: flex; align-items: center; gap: 15px; background: #fffdf6; border: 1px solid #c6b89c; border-radius: 3px; box-shadow: 4px 5px 0 #b8a98b33; color: #74684f; }
+.chapter-transition .chapter-single > .icon { width: 34px; height: 34px; }
+.chapter-transition .chapter-single > span:not(.chapter-card-check) { font-size: 16px; }
+.chapter-transition .chapter-card-check { position: absolute; right: 13px; top: 11px; color: #718a5f; }
+.chapter-transition .chapter-card-check .icon { width: 17px; height: 17px; }
+.chapter-transition .chapter-checklist { display: block; min-height: 192px; padding: 17px 23px 16px 31px; transform: rotate(-3deg); }
+.chapter-transition .chapter-checklist-binding { position: absolute; top: 0; bottom: 0; left: 16px; border-left: 2px dotted #c7b98f; }
+.chapter-transition .chapter-paper-label { font-size: 8px; letter-spacing: .12em; color: #79785e; }
+.chapter-transition .chapter-checklist > strong { display: block; font: 31px/1.2 var(--serif); color: #667855; margin: 9px 0; }
+.chapter-transition .chapter-checklist > strong > span { font-size: 16px; color: #99917b; }
+.chapter-transition .chapter-checklist-lines { display: grid; gap: 5px; }
+.chapter-transition .chapter-checklist-lines > span { display: flex; align-items: center; gap: 9px; }
+.chapter-transition .chapter-checklist-lines .icon { width: 12px; height: 12px; color: #81936c; }
+.chapter-transition .chapter-checklist-lines i { width: 100%; height: 1px; background: #ded8c6; }
+.chapter-transition .chapter-checklist::after { content: ''; position: absolute; inset: 0; border: 1px solid #b8aa8d; border-radius: 3px; background: linear-gradient(90deg, #c5b18c 5px, #eadfc8 6px, #f0e6d0); transform-origin: left center; opacity: 0; }
+.chapter-transition .chapter-incoming { width: min(100%, 660px); display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.chapter-transition .chapter-new-card { min-width: 0; min-height: 145px; position: relative; padding: 24px 20px; border: 1px solid #cbbd9f; border-radius: 3px; background: #fffdf6; box-shadow: 0 5px 0 #bbab8b21; color: #74684f; display: flex; flex-direction: column; align-items: flex-start; }
+.chapter-transition .chapter-new-card > .icon { width: 29px; height: 29px; }
+.chapter-transition .chapter-new-card > span:not(.sr-only) { display: block; font-size: 16px; line-height: 1.3; margin-top: 13px; }
+.chapter-transition .chapter-empty-slots .chapter-new-card { background: #faf6ea; border-style: dashed; }
+.chapter-transition .chapter-empty-slots .chapter-new-card > .chapter-slot-number { color: #9d947f; font: italic 18px var(--serif); margin: 0; }
+.chapter-transition .chapter-empty-slots .chapter-new-card > .chapter-empty-mark { position: absolute; inset: 0; margin: 0; display: grid; place-items: center; color: #c4b99e; font: 36px var(--serif); }
+.chapter-transition .chapter-slider { width: 100%; height: 3px; background: #ddd5c2; margin-top: auto; position: relative; }
+.chapter-transition .chapter-priorities .chapter-new-card > span { margin-bottom: 24px; }
+.chapter-transition .chapter-slider i { position: absolute; left: 33%; top: -4px; width: 11px; height: 11px; border-radius: 50%; border: 2px solid #ad5840; background: #fffdf6; }
+.chapter-transition .chapter-entry { min-height: 121px; padding-top: 14px; }
+.chapter-transition .chapter-bridge.conversation { min-height: 0; }
+.chapter-transition .chapter-bridge .dialogue-character { max-width: 100%; }
+.chapter-transition .chapter-bridge .speech-bubble p { font-size: 18px; }
+.chapter-transition .chapter-bridge .speech-bubble { max-width: 620px; }
+.chapter-transition .chapter-actions { display: flex; justify-content: flex-end; margin-top: 14px; }
+.chapter-transition[data-beat=hold] .chapter-incoming { visibility: hidden; }
+.chapter-transition:not([data-beat=hold]) .chapter-outgoing { opacity: 0; pointer-events: none; animation: chapter-file-away .7s ease-in both; }
+.chapter-transition:not([data-beat=hold]) .chapter-checklist { animation-delay: .22s; }
+.chapter-transition:not([data-beat=hold]) .chapter-checklist::after { animation: chapter-close-cover .28s ease-in both; }
+.chapter-transition:not([data-beat=hold]) .chapter-new-card { animation: chapter-unfold .65s calc(var(--chapter-card) * .12s) cubic-bezier(.2,.65,.3,1) both; }
+.chapter-transition:is([data-beat=chapter],[data-beat=ready]) .chapter-heading { visibility: visible; animation: chapter-heading-in .5s ease-out both; }
+.chapter-transition[data-beat=ready] .chapter-entry { animation: chapter-entry-in .25s ease-out both; }
+.chapter-transition *, .chapter-transition *::before, .chapter-transition *::after { animation-play-state: var(--chapter-play-state) !important; }
+@keyframes chapter-file-away { from { opacity: 1; translate: 0 0; } to { opacity: 0; translate: -145px -15px; rotate: -9deg; scale: .9; } }
+@keyframes chapter-close-cover { from { opacity: .4; transform: rotateY(-90deg); } to { opacity: 1; transform: rotateY(0deg); } }
+@keyframes chapter-unfold { from { opacity: 0; translate: calc((1 - var(--chapter-card)) * 100%) 10px; rotate: calc((var(--chapter-card) - 1) * 6deg); } to { opacity: 1; translate: 0 0; rotate: 0deg; } }
+@keyframes chapter-heading-in { from { opacity: 0; translate: 0 7px; letter-spacing: .04em; } to { opacity: 1; translate: 0 0; } }
+@keyframes chapter-entry-in { from { opacity: 0; } to { opacity: 1; } }
+@media (max-width: 760px) {
+  .chapter-transition { padding: 20px 24px; }
+  .chapter-transition .chapter-recap { gap: 9px 14px; flex-wrap: wrap; }
+  .chapter-transition .chapter-consequence { margin-left: 0; flex-basis: 100%; }
+  .chapter-transition .chapter-heading { padding-top: 24px; min-height: 125px; }
+  .chapter-transition .chapter-heading h1 { font-size: 45px; }
+  .chapter-transition .chapter-stage { min-height: 200px; }
+  .chapter-transition .chapter-new-card { padding: 20px 15px; }
+}
+@media (max-width: 520px) {
+  .chapter-transition { padding: 17px 16px 20px; }
+  .chapter-transition .chapter-recap { font-size: 11px; }
+  .chapter-transition .chapter-heading { min-height: 140px; padding: 24px 0 16px; }
+  .chapter-transition .chapter-heading h1 { font-size: 39px; max-width: 280px; margin: auto; }
+  .chapter-transition .chapter-incoming { gap: 8px; }
+  .chapter-transition .chapter-stage { min-height: 192px; }
+  .chapter-transition .chapter-new-card { min-height: 130px; padding: 16px 10px; }
+  .chapter-transition .chapter-new-card > .icon { width: 23px; height: 23px; }
+  .chapter-transition .chapter-new-card > span:not(.sr-only) { font-size: 13px; overflow-wrap: anywhere; }
+  .chapter-transition .chapter-priorities .chapter-new-card > span { margin-bottom: 20px; }
+  .chapter-transition .chapter-entry { min-height: 151px; }
+  .chapter-transition .chapter-bridge .speech-bubble { padding: 9px 11px; }
+  .chapter-transition .chapter-bridge .speech-bubble p { font-size: 17px; }
+  .chapter-transition .chapter-actions { margin-top: 18px; }
+}
+
+/* Level 1 gradually translates the familiar office into the paper workbench. */
+.first-chapter-shell { min-height: 100svh; display: grid; place-items: center; padding: 32px 24px; background: #ebe6db; animation: first-chapter-desk 1.1s ease-out both; }
+.first-chapter-shell .chapter-transition { width: min(100%, 1160px); min-height: 640px; border: 1px solid #d4cdbd; border-radius: 3px; box-shadow: 0 6px 30px #45432f13; animation: first-chapter-arrive .9s ease-out both; }
+.chapter-transition .chapter-origin-backdrop { position: absolute; z-index: -1; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: .13; pointer-events: none; transition: opacity 1.1s; }
+.chapter-transition:not([data-beat=hold]) .chapter-origin-backdrop { opacity: .035; }
+.chapter-transition[data-level='1'] .chapter-report { color: #8c7955; }
+.chapter-transition[data-level='1'] .chapter-incoming { grid-template-columns: minmax(0, 210px); justify-content: center; }
+.chapter-transition[data-level='1'] .chapter-new-card { animation-name: first-metric-unfold; }
+.chapter-transition[data-level='1'] .chapter-empty-slots .chapter-new-card { min-height: 160px; }
+@keyframes first-chapter-arrive { from { opacity: 0; } to { opacity: 1; } }
+@keyframes first-chapter-desk { from { background-color: #080a09; } to { background-color: #ebe6db; } }
+@keyframes first-metric-unfold { from { opacity: 0; translate: 0 12px; scale: .97; } to { opacity: 1; translate: 0 0; scale: 1; } }
+@media (max-width: 520px) { .first-chapter-shell { padding: 14px 10px; } .first-chapter-shell .chapter-transition { min-height: 620px; } }

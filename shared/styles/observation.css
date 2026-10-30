@@ -1,0 +1,25 @@
+.game-page .classroom-observation { display: grid; grid-template-columns: 155px minmax(0, 1fr); gap: 8px 25px; align-items: center; padding: 19px 23px; }
+.game-page .classroom-observation > .eyebrow { grid-column: 1 / -1; margin-bottom: 8px; }
+.game-page .classroom-observation .observation-copy { margin: 0; font: 18px/1.4 var(--serif); color: #807459; }
+.observation-copy > span { display: block; }
+.observation-copy > strong { display: block; margin-top: 9px; color: #83542f; font: 24px/1.3 var(--serif); }
+.observation-picture { min-height: 115px; position: relative; display: flex; align-items: center; padding: 9px 5px 4px 26px; }
+.observation-alex { position: absolute; top: 0; left: 0; z-index: 2; width: 35px; height: 35px; display: grid; place-items: center; border-radius: 50%; background: #dbe3cc; border: 1px solid #aeba97; color: #65794e; font: italic 25px var(--serif); box-shadow: 0 2px 2px #88734a0c; }
+.observation-notebook { position: relative; min-width: 78px; padding: 13px 11px 9px 17px; min-height: 88px; border: 1px solid #c5b48f; border-radius: 3px; background: #fffaf0; box-shadow: 3px 4px 0 #dbcaa9; transform: rotate(-5deg); display: grid; grid-template-columns: 1fr; gap: 5px; }
+.observation-notebook > span { display: flex; align-items: center; gap: 14px; }
+.observation-notebook > span .icon { width: 17px; height: 17px; color: #9d8a64; }
+.observation-notebook > span .icon:last-child { width: 15px; height: 15px; color: #788d5c; }
+.observation-binding { position: absolute; inset: 4px auto 4px 6px; width: 2px; border-left: 2px dotted #cbb992; }
+.observation-outside { display: grid; gap: 8px; margin-left: 16px; color: #b3a386; opacity: .55; }
+.observation-outside .icon { width: 18px; height: 18px; }
+@media (max-width: 760px) {
+  .game-page .classroom-observation { grid-template-columns: 100px minmax(0, 1fr); gap: 10px 16px; padding: 17px; }
+  .observation-picture { transform: scale(.8); transform-origin: left center; margin-right: -20px; }
+  .game-page .classroom-observation .observation-copy { font-size: 16px; }
+  .observation-copy > strong { font-size: 21px; }
+}
+@media (max-width: 520px) {
+  .game-page .classroom-observation { grid-template-columns: 1fr; }
+  .observation-picture { justify-self: center; width: 145px; min-height: 95px; margin: -8px 0 0; transform: scale(.85); transform-origin: center; }
+  .observation-copy > strong { font-size: 21px; }
+}

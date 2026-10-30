@@ -1,0 +1,26 @@
+.management-satisfaction { min-width: 0; }
+[data-management-panel] { position: relative; }
+.management-attention { position: absolute; inset: -2px; border: 2px solid transparent; border-radius: inherit; pointer-events: none; animation: management-attention-pulse .65s ease-in-out 3; }
+@keyframes management-attention-pulse {
+  0%,100% { border-color: transparent; box-shadow: 0 0 0 0 #91a26a00; }
+  45%,55% { border-color: #607e42; box-shadow: 0 0 0 4px #91a26a55; }
+}
+@keyframes management-attention-still {
+  from,to { border-color: #718c51; box-shadow: 0 0 0 3px #91a26a44; }
+}
+.management-satisfaction-label { display: block; color: #80836e; font-size: var(--perspective-label-size); }
+.management-satisfaction-state { display: block; font: 30px/1.12 var(--serif); color: #4f6d45; margin: 16px 0 18px; overflow-wrap: anywhere; }
+.management-satisfaction-track { height: 8px; background: #dce4cf; border-radius: 8px; overflow: hidden; }
+.management-satisfaction-track > span { display: block; height: 100%; background: #789164; border-radius: inherit; transition: width 1s ease-out; }
+.management-satisfaction-evidence { margin-top: 12px; font-size: 11px; line-height: 1.55; color: #727c61; }
+.management-satisfaction[data-awaiting=true] .management-satisfaction-state { color: #969780; font-size: 25px; }
+@media (max-width: 520px) {
+  .management-satisfaction-state { font-size: 25px; margin: 12px 0 15px; }
+  .management-satisfaction[data-awaiting=true] .management-satisfaction-state { font-size: 22px; }
+  .management-satisfaction-evidence { font-size: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .management-satisfaction-track > span { transition: none; }
+  /* A steady timed outline, including when the base stylesheet disables motion. */
+  .management-attention { animation-name: management-attention-still !important; animation-duration: 1.95s !important; animation-iteration-count: 1 !important; animation-play-state: var(--attention-play-state) !important; }
+}

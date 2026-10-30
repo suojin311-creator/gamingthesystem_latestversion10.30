@@ -1,0 +1,9 @@
+.task-scene { width: 118px; height: 77px; flex-shrink: 0; overflow: visible; }
+.task-scene .task-writing-hand { transform-origin: 94px 65px; animation: task-write .4s ease-in-out 6 alternate; }
+.task-scene-high .task-writing-hand { animation-duration: .25s; }
+.task-scene .task-speed { animation: task-busy .5s ease-in-out 3 alternate; }
+@keyframes task-write { to { transform: rotate(-5deg); } }
+@keyframes task-busy { to { opacity: .25; transform: translateX(2px); } }
+@media (prefers-reduced-motion: reduce) { .task-scene * { animation: none !important; } }
+.task-scene .task-raised-hand { transform-origin: 104px 55px; animation: task-hand .6s ease-in-out 3 alternate; }
+@keyframes task-hand { to { transform: rotate(-6deg); } }

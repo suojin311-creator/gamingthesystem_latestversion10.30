@@ -1,0 +1,8 @@
+.first-handoff {min-height:100svh;background:#ebe6db;}
+.first-handoff[data-entering=true] .first-handoff-outgoing {position:fixed;inset:0;z-index:10;pointer-events:none;animation:first-handoff-out .7s cubic-bezier(.4,0,.2,1) both;}
+.first-handoff .first-handoff-incoming {animation:first-handoff-in .7s cubic-bezier(.4,0,.2,1) both;}
+@keyframes first-handoff-out{from{opacity:1}to{opacity:0}}
+@keyframes first-handoff-in{from{opacity:0}to{opacity:1}}
+.first-handoff .workbench-guide[open] {animation:guide-soft-entry .3s ease-out both;}
+@keyframes guide-soft-entry{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.first-handoff .first-handoff-incoming,.first-handoff[data-entering=true] .first-handoff-outgoing,.first-handoff .workbench-guide[open]{animation:none}}

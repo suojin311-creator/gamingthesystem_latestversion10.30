@@ -1,0 +1,15 @@
+node_modules/
+dist/
+dist-*/
+play/
+build/
+test-results/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+# Recording excluded from the source handoff; restore locally only with rights.
+src/audio/assets/gymnopedie-no1.mp3
+__pycache__/
+*.py[cod]

@@ -7,6 +7,8 @@ import { levelThreeFilmPlugin } from './scripts/level3-film.mjs';
 
 export default defineConfig({
   base: './',
+  // Vendored cinematic subsets have adapted entry points, not standalone apps.
+  optimizeDeps: { entries: ['index.html'] },
   plugins: [levelOneFilmPlugin(), levelTwoFilmPlugin(), levelThreeFilmPlugin(), endingFilmPlugin(), viteSingleFile()],
   build: { target: 'es2022', reportCompressedSize: false },
 });

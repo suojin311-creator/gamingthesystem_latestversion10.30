@@ -1,5 +1,5 @@
 {
-  "name": "gaming-the-system-level-one",
+  "name": "gaming-the-system",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -15,15 +15,11 @@
     "build:level3": "npm run cinematic:prepare && tsc --noEmit && vite build --mode level3 --outDir dist-level3",
     "build:previews": "npm run cinematic:prepare && npm run check && vite build && vite build --mode level1 --outDir dist-level1 && vite build --mode level2 --outDir dist-level2 && vite build --mode level3 --outDir dist-level3",
     "package:previews": "npm run build:previews && python3 scripts/package_previews.py",
-    "package:ending-preview": "node scripts/ending-preview.mjs",
     "test:integration": "python3 tests/level3_integration.py",
     "test:release": "python3 tests/release.py",
     "preview": "vite preview --host 0.0.0.0",
-    "preview:level2:web": "node scripts/level2-web-preview.mjs",
     "cinematic:prepare": "node scripts/level1-film.mjs && node scripts/level2-film.mjs && node scripts/level3-film.mjs && node scripts/ending-film.mjs",
-    "lab:dev": "vite --config design-lab/vite.config.ts",
-    "lab:check": "tsc --project design-lab/tsconfig.json --noEmit",
-    "lab:build": "npm run lab:check && vite build --config design-lab/vite.config.ts"
+    "test": "node --test --test-concurrency=1 tests/*.mjs"
   },
   "dependencies": {
     "@remotion/player": "4.0.534",

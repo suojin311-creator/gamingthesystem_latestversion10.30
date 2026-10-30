@@ -1,0 +1,182 @@
+[
+  {
+    "path": "revision-assets/references/alex/ALEX-PROD-001 — Seated Alex Neutral.png",
+    "sha256": "ea17e207687207fd0c092f3be333c5a6609404207dc6767c7624abddc393e468",
+    "sourceRevision": "c8c1c83456c4e67cf627df399bfb67b3a9792adb",
+    "sourcePath": "assets/characters/alex-rig/production/base/ALEX-PROD-001 — Seated Alex Neutral.png"
+  },
+  {
+    "path": "src/cinematics/opening/assets/backgrounds/BG-002 — Classroom First-Person Background.png",
+    "sha256": "11c8569a776655b1d9b23f4fb9ce9e4096f3fda78f5f21974c7a3084a56915d0",
+    "sourceRevision": "5214aa30cf9d84d298c6ec2eed055c6824719c41",
+    "sourcePath": "src/cinematics/opening/assets/backgrounds/BG-002 — Classroom First-Person Background.png"
+  },
+  {
+    "path": "src/cinematics/opening/assets/characters/CHAR-001 — Sleeping Student Idle.png",
+    "sha256": "ce6f248c2d55f0a3b41450ab3dc54826e5962bf55d2fcf97b81a352c12911117",
+    "sourceRevision": "5214aa30cf9d84d298c6ec2eed055c6824719c41",
+    "sourcePath": "src/cinematics/opening/assets/characters/CHAR-001 — Sleeping Student Idle.png"
+  },
+  {
+    "path": "src/cinematics/opening/assets/characters/CHAR-003 — Phone Student Idle.png",
+    "sha256": "0621cfda5e48b4ec4d39eee2fe194218c6e5f396dba4f3bcb5eacb0895b9c0ac",
+    "sourceRevision": "5214aa30cf9d84d298c6ec2eed055c6824719c41",
+    "sourcePath": "src/cinematics/opening/assets/characters/CHAR-003 — Phone Student Idle.png"
+  },
+  {
+    "path": "src/cinematics/opening/assets/characters/CHAR-005 — Unprepared Student Idle.png",
+    "sha256": "b72e89309cc51a91faa2c3ff179b352b7691fd8d8609a74722d18e35027665b3",
+    "sourceRevision": "5214aa30cf9d84d298c6ec2eed055c6824719c41",
+    "sourcePath": "src/cinematics/opening/assets/characters/CHAR-005 — Unprepared Student Idle.png"
+  },
+  {
+    "path": "scripts/level2-source/assets/characters/alex-rig/production/base/ALEX-PROD-001 — Seated Alex Neutral.png",
+    "sha256": "ea17e207687207fd0c092f3be333c5a6609404207dc6767c7624abddc393e468",
+    "sourceRevision": "c8c1c83456c4e67cf627df399bfb67b3a9792adb",
+    "sourcePath": "assets/characters/alex-rig/production/base/ALEX-PROD-001 — Seated Alex Neutral.png"
+  },
+  {
+    "path": "scripts/level2-source/assets/characters/alex-rig/production/expressions/ALEX-PROD-002 — Blink.png",
+    "sha256": "39f5f9f64a40150978ae3ce7735a5a21dfa79051057d53bf4998d859d5e111d3",
+    "sourceRevision": "c8c1c83456c4e67cf627df399bfb67b3a9792adb",
+    "sourcePath": "assets/characters/alex-rig/production/expressions/ALEX-PROD-002 — Blink.png"
+  },
+  {
+    "path": "scripts/level2-source/assets/characters/alex-rig/production/expressions/ALEX-PROD-003 — Pleased.png",
+    "sha256": "06f284a4fce7ff20a8a5ba3ea734e8313aa9e35a6744d1112f82fa59641a27e4",
+    "sourceRevision": "c8c1c83456c4e67cf627df399bfb67b3a9792adb",
+    "sourcePath": "assets/characters/alex-rig/production/expressions/ALEX-PROD-003 — Pleased.png"
+  },
+  {
+    "path": "scripts/level2-source/assets/characters/alex-rig/production/expressions/ALEX-PROD-004 — Uncertain.png",
+    "sha256": "3d444c155b5fd7dd743787dc5b70e0606f3c86f247d5c3a24c6521988557a850",
+    "sourceRevision": "c8c1c83456c4e67cf627df399bfb67b3a9792adb",
+    "sourcePath": "assets/characters/alex-rig/production/expressions/ALEX-PROD-004 — Uncertain.png"
+  },
+  {
+    "path": "scripts/level2-source/docs/visual-style/references/Level 2 - More Metrics Consequences/    REF-L2-001 — Visible-heavy Classroom.png",
+    "sha256": "89b43d709288ae3fb51c42c9a9d14047b56f69f7c086de53f1944c1dd32c83ab",
+    "sourceRevision": "c8c1c83456c4e67cf627df399bfb67b3a9792adb",
+    "sourcePath": "docs/visual-style/references/Level 2 - More Metrics Consequences/    REF-L2-001 — Visible-heavy Classroom.png"
+  },
+  {
+    "path": "scripts/level2-source/docs/visual-style/references/Level 2 - More Metrics Consequences/    REF-L2-002 — Quality-heavy Classroom.png",
+    "sha256": "1ab7fee6d216065a98d7c363d7a282cbaabdf47950266990a4516c9813825493",
+    "sourceRevision": "c8c1c83456c4e67cf627df399bfb67b3a9792adb",
+    "sourcePath": "docs/visual-style/references/Level 2 - More Metrics Consequences/    REF-L2-002 — Quality-heavy Classroom.png"
+  },
+  {
+    "path": "scripts/level2-source/docs/visual-style/references/Level 2 - More Metrics Consequences/REF-L2-003 — Mixed : Broad Classroom.png",
+    "sha256": "6fa3561e2cfe326f74f7d34f4f5261aa6ecbe1091bf6c83bb3254d0e456209e1",
+    "sourceRevision": "c8c1c83456c4e67cf627df399bfb67b3a9792adb",
+    "sourcePath": "docs/visual-style/references/Level 2 - More Metrics Consequences/REF-L2-003 — Mixed : Broad Classroom.png"
+  },
+  {
+    "path": "scripts/level3-source/docs/visual-style/references/level3-metric-adaptations/REF-L3A-S10 — High On-Task Focus.png",
+    "sha256": "27068e00f1f0f1faed30f4ddeb9b6b8b4d2c3288988433996b5df5666255da5e",
+    "sourceRevision": "ba9f81ee619c14b3342104228cdd2a5cc2bc2b3b",
+    "sourcePath": "docs/visual-style/references/level3-metric-adaptations/REF-L3A-S10 — High On-Task Focus.png"
+  },
+  {
+    "path": "scripts/level3-source/assets/backgrounds/BG-002 — Classroom First-Person Background.png",
+    "sha256": "11c8569a776655b1d9b23f4fb9ce9e4096f3fda78f5f21974c7a3084a56915d0",
+    "sourceRevision": "ba9f81ee619c14b3342104228cdd2a5cc2bc2b3b",
+    "sourcePath": "assets/backgrounds/BG-002 — Classroom First-Person Background.png"
+  },
+  {
+    "path": "scripts/level3-source/assets/props/PROP-L1-001 — Checklist : Reading Sheet.png",
+    "sha256": "90dbc324339a3cc71d2ed8e0bbd1dc40b86f8144adf92f940690253bd6c266a3",
+    "sourceRevision": "ba9f81ee619c14b3342104228cdd2a5cc2bc2b3b",
+    "sourcePath": "assets/props/PROP-L1-001 — Checklist : Reading Sheet.png"
+  },
+  {
+    "path": "scripts/level3-source/assets/props/PROP-L1-003 — Discussion Sentence-Stem Card.png",
+    "sha256": "2b0334b0b69ac289751bdf091d953c8e0ddd90cf9b2116c4e4e4c9c7823c02c9",
+    "sourceRevision": "ba9f81ee619c14b3342104228cdd2a5cc2bc2b3b",
+    "sourcePath": "assets/props/PROP-L1-003 — Discussion Sentence-Stem Card.png"
+  },
+  {
+    "path": "scripts/level1-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-001 — Pre-class Preparation.png",
+    "sha256": "800c16fe972dd2c3faba2dffa46a5872a0b512c42d6e8e20f299f3148be1bee7",
+    "sourceRevision": "1bdd0c442c4b345b3bd37d6f541742d4e55c732f",
+    "sourcePath": "docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-001 — Pre-class Preparation.png"
+  },
+  {
+    "path": "scripts/level1-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-002 — In-class Participation.png",
+    "sha256": "be5431d2cc180a477e2b9cc40610e07a5da49d457f9dfbb75527f11d7a27b222",
+    "sourceRevision": "1bdd0c442c4b345b3bd37d6f541742d4e55c732f",
+    "sourcePath": "docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-002 — In-class Participation.png"
+  },
+  {
+    "path": "scripts/level1-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-003 — On-task Focus.png",
+    "sha256": "50a7294fbe9138984abe8ab3de8acb55a9cfaae0c0006116419c1e094cfcb7cf",
+    "sourceRevision": "1bdd0c442c4b345b3bd37d6f541742d4e55c732f",
+    "sourcePath": "docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-003 — On-task Focus.png"
+  },
+  {
+    "path": "scripts/level1-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-004 — Discussion Quality.png",
+    "sha256": "42dcb9ea3531e95a645d1dea424ecbbef7002cd25e0f15cbc7ad2e60d72b3d8e",
+    "sourceRevision": "1bdd0c442c4b345b3bd37d6f541742d4e55c732f",
+    "sourcePath": "docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-004 — Discussion Quality.png"
+  },
+  {
+    "path": "scripts/level1-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-005 — Learning Reflection.png",
+    "sha256": "a2dd6fcd76f3f661abb497d2554e341a6944c0b1504ccfa317d122d11da7a658",
+    "sourceRevision": "1bdd0c442c4b345b3bd37d6f541742d4e55c732f",
+    "sourcePath": "docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-005 — Learning Reflection.png"
+  },
+  {
+    "path": "scripts/level1-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-006 — Online Peer Response.png",
+    "sha256": "73d032b6bff143bfc150f1c5167d5a61f0c93bf08b0b5da09548adb8791ad4d8",
+    "sourceRevision": "1bdd0c442c4b345b3bd37d6f541742d4e55c732f",
+    "sourcePath": "docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-006 — Online Peer Response.png"
+  },
+  {
+    "path": "scripts/ending-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-001 — Pre-class Preparation.png",
+    "sha256": "800c16fe972dd2c3faba2dffa46a5872a0b512c42d6e8e20f299f3148be1bee7",
+    "sourceRevision": "e467998dfb07abc028e4e0fcb5567006e4eaa07d",
+    "sourcePath": "docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-001 — Pre-class Preparation.png"
+  },
+  {
+    "path": "scripts/ending-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-002 — In-class Participation.png",
+    "sha256": "be5431d2cc180a477e2b9cc40610e07a5da49d457f9dfbb75527f11d7a27b222",
+    "sourceRevision": "e467998dfb07abc028e4e0fcb5567006e4eaa07d",
+    "sourcePath": "docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-002 — In-class Participation.png"
+  },
+  {
+    "path": "scripts/ending-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-003 — On-task Focus.png",
+    "sha256": "50a7294fbe9138984abe8ab3de8acb55a9cfaae0c0006116419c1e094cfcb7cf",
+    "sourceRevision": "e467998dfb07abc028e4e0fcb5567006e4eaa07d",
+    "sourcePath": "docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-003 — On-task Focus.png"
+  },
+  {
+    "path": "scripts/ending-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-004 — Discussion Quality.png",
+    "sha256": "42dcb9ea3531e95a645d1dea424ecbbef7002cd25e0f15cbc7ad2e60d72b3d8e",
+    "sourceRevision": "e467998dfb07abc028e4e0fcb5567006e4eaa07d",
+    "sourcePath": "docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-004 — Discussion Quality.png"
+  },
+  {
+    "path": "scripts/ending-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-005 — Learning Reflection.png",
+    "sha256": "a2dd6fcd76f3f661abb497d2554e341a6944c0b1504ccfa317d122d11da7a658",
+    "sourceRevision": "e467998dfb07abc028e4e0fcb5567006e4eaa07d",
+    "sourcePath": "docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-005 — Learning Reflection.png"
+  },
+  {
+    "path": "scripts/ending-source/docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-006 — Online Peer Response.png",
+    "sha256": "73d032b6bff143bfc150f1c5167d5a61f0c93bf08b0b5da09548adb8791ad4d8",
+    "sourceRevision": "e467998dfb07abc028e4e0fcb5567006e4eaa07d",
+    "sourcePath": "docs/visual-style/references/Level1 - Six Behaviour Consequences/REF-L1-006 — Online Peer Response.png"
+  },
+  {
+    "path": "scripts/ending-source/assets/characters/alex-rig/production/expressions/ALEX-PROD-003 — Pleased.png",
+    "sha256": "06f284a4fce7ff20a8a5ba3ea734e8313aa9e35a6744d1112f82fa59641a27e4",
+    "sourceRevision": "e467998dfb07abc028e4e0fcb5567006e4eaa07d",
+    "sourcePath": "assets/characters/alex-rig/production/expressions/ALEX-PROD-003 — Pleased.png"
+  },
+  {
+    "path": "scripts/level1-source/assets/backgrounds/BG-002 — Classroom First-Person Background.png",
+    "sha256": "11c8569a776655b1d9b23f4fb9ce9e4096f3fda78f5f21974c7a3084a56915d0",
+    "sourceRevision": "1bdd0c442c4b345b3bd37d6f541742d4e55c732f",
+    "sourcePath": "assets/backgrounds/BG-002 — Classroom First-Person Background.png"
+  }
+]

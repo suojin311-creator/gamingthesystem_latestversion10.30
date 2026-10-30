@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-31",
+  "uploadedRevision": "d62fe91f078668f4a926bd80ee71de5662665e2b",
+  "backupTag": "backup/manual-upload-20261031",
+  "inventoryEntries": 289,
+  "presentInventoryEntries": 289,
+  "byteIdenticalInventoryEntries": 280,
+  "missingInventoryEntries": [],
+  "intentionallyModifiedInventoryEntries": [
+    "package-lock.json",
+    "package.json",
+    "scripts/package_previews.py",
+    "src/audio/AudioControls.tsx",
+    "src/audio/director.ts",
+    "tests/dialogue_emojis.mjs",
+    "tests/level2_animation_pacing.mjs",
+    "vite.config.ts",
+    "tests/release.py"
+  ],
+  "relocatedFiles": 251,
+  "restoredPlaceholderFiles": 6,
+  "restoredImages": 30,
+  "restoredImageHashesVerified": true,
+  "checks": {
+    "typescript": "passed",
+    "nodeTests": {
+      "passed": 21,
+      "failed": 0
+    },
+    "productionBuilds": "full game and three standalone entries passed; all four cinematics built from local source",
+    "devBrowser": {
+      "passed": true,
+      "runtimeErrors": [],
+      "imageLoadVerified": true,
+      "missingMusicControlsHidden": true
+    },
+    "release": {
+      "passed": 12,
+      "checks": [
+        "All four latest ZIPs are intact, self-contained and byte-identical to their production builds and manifest",
+        "The review ZIP contains separate Level 3 and connected Levels 1–3 HTMLs, identical to their tested latest packages",
+        "The complete ZIP shares one verified game build across its four offline entry points without duplicating movie assets",
+        "The actual complete-ZIP launcher fits desktop/phone, starts the full game at the opening and opens each standalone level directly offline",
+        "Packaged Level2.html completes 3 → 6 → 10 → 25 → 100 offline with normal motion",
+        "Packaged standalone Level3.html compares after two tests and can add an optional third, keeping all actual results offline",
+        "Packaged Level1.html uses the approved report, normal-speed cinematic, matching name/colours and settlement; Try another resets it without entering Level 2",
+        "Standalone Level 1 reload starts a fresh Level 1 run",
+        "Packaged combined game continues from the current Level 1 into playable Level 2 and keeps sound preference",
+        "Packaged combined game carries the opening name, including ampersand and Chinese, through Level 1 UI, teacher/Alex captions, email and playable Levels 2–3",
+        "Combined preview reload starts at the opening rather than restoring a level or player identity",
+        "Packaged entries have no browser runtime errors"
+      ],
+      "runtimeErrors": []
+    }
+  },
+  "remainingOmissions": [
+    {
+      "path": "src/audio/assets/gymnopedie-no1.mp3",
+      "reason": "Excluded by original handoff; now optional. No recording downloaded or substituted."
+    }
+  ],
+  "limitations": [
+    "Optional music-present path not exercised because no licensed recording was supplied.",
+    "No online deployment, native Windows, physical mobile device or Padlet posting/permissions verification.",
+    "Old source subset entry points are intentionally replaced by cinematic Vite adapters."
+  ],
+  "generatedArtifactsCommitted": false
+}

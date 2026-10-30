@@ -4,7 +4,7 @@ import { pathToFileURL } from 'node:url';
 import { resolve } from 'node:path';
 import { createPacing, sampleAt, readingSeconds, finalCover } from '../scripts/level2-animation/pacing.mjs';
 
-if (!process.env.LEVEL2_ANIMATION_SOURCE) throw new Error('Set LEVEL2_ANIMATION_SOURCE to the pinned read-only partner checkout.');
+process.env.LEVEL2_ANIMATION_SOURCE ||= resolve('scripts/level2-source');
 const { getLevel2Shots, shotAt } = await import(pathToFileURL(resolve(process.env.LEVEL2_ANIMATION_SOURCE, 'src/cinematics/level2/level2Timeline.ts')));
 const { level2Performance } = await import(pathToFileURL(resolve(process.env.LEVEL2_ANIMATION_SOURCE, 'src/cinematics/level2/level2Performance.ts')));
 const scenes = ['three', 'six', 'checklist'].map(kind => {

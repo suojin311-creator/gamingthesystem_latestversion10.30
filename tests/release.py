@@ -12,7 +12,12 @@ from urllib.parse import urlsplit
 from playwright.sync_api import sync_playwright, expect
 
 expect.set_options(timeout=30000)
-checks, errors = [], []
+class CheckLog(list):
+    def append(self, check):
+        super().append(check)
+        print('PASS', check, flush=True)
+
+checks, errors = CheckLog(), []
 artifacts = {}
 manifest = json.loads(Path('play/LATEST.json').read_text())
 assert {entry['html'] for entry in manifest['entries']} == {'Level1.html', 'Level2.html', 'Level3.html', 'Gaming-the-System.html'}
@@ -75,7 +80,7 @@ def advance(page, seconds=24):
 
 def opening(page):
     # Reuse the current approved Opening, including the Alex introduction.
-    from stage1a_level1 import start_game
+    from opening_flow import start_game
     start_game(page, 'Riley Chen & 李')
     page.get_by_role('button', name='Sound off', exact=True).click()
     page.get_by_role('button', name='Guide', exact=True).click()
